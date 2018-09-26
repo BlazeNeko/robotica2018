@@ -1,7 +1,0 @@
-/home/salabeta/Descargas/ejemplo1/CMakeFiles/install/strip.dir
-/home/salabeta/Descargas/ejemplo1/CMakeFiles/edit_cache.dir
-/home/salabeta/Descargas/ejemplo1/CMakeFiles/ejemplo1.dir
-/home/salabeta/Descargas/ejemplo1/CMakeFiles/rebuild_cache.dir
-/home/salabeta/Descargas/ejemplo1/CMakeFiles/list_install_components.dir
-/home/salabeta/Descargas/ejemplo1/CMakeFiles/install/local.dir
-/home/salabeta/Descargas/ejemplo1/CMakeFiles/install.dir
