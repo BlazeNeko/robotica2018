@@ -1,0 +1,14 @@
+/home/salabeta/BN/robotica2018/practica2/CMakeFiles/install/strip.dir
+/home/salabeta/BN/robotica2018/practica2/CMakeFiles/install.dir
+/home/salabeta/BN/robotica2018/practica2/CMakeFiles/install/local.dir
+/home/salabeta/BN/robotica2018/practica2/CMakeFiles/list_install_components.dir
+/home/salabeta/BN/robotica2018/practica2/CMakeFiles/edit_cache.dir
+/home/salabeta/BN/robotica2018/practica2/CMakeFiles/rebuild_cache.dir
+/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/install/strip.dir
+/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/edit_cache.dir
+/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir
+/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/install.dir
+/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/rebuild_cache.dir
+/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/list_install_components.dir
+/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/install/local.dir
+/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca_autogen.dir
