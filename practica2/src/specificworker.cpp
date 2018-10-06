@@ -57,8 +57,8 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 
 void SpecificWorker::compute( )
 {
-    const float threshold = 300; //millimeters
-    float rot = 1.2;  //rads per second
+    const float threshold = 250; //millimeters
+    float rot = 2;  //rads per second
  
     int direccion;	//1 = turn right, -1 turn left
     try
@@ -76,11 +76,11 @@ void SpecificWorker::compute( )
 	
 		std::cout << ldata.front().dist << std::endl;
  		differentialrobot_proxy->setSpeedBase(100, rot * direccion);
-		usleep(rand()%(1000000-100000 + 1) + 100000);  //random wait between 1.5s and 0.1sec
+		usleep(1000000);  //random wait between 1.5s and 
 	}
 	else
 	{
-		differentialrobot_proxy->setSpeedBase(400, 0); 
+		differentialrobot_proxy->setSpeedBase(500, 0); 
   	}
     }
     catch(const Ice::Exception &ex)

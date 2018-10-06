@@ -4,20 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/salabeta/BN/robotica2018/practica2/src/CommonBehavior.cpp" "/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir/CommonBehavior.cpp.o"
-  "/home/salabeta/BN/robotica2018/practica2/src/DifferentialRobot.cpp" "/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir/DifferentialRobot.cpp.o"
-  "/home/salabeta/BN/robotica2018/practica2/src/GenericBase.cpp" "/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir/GenericBase.cpp.o"
-  "/home/salabeta/BN/robotica2018/practica2/src/Laser.cpp" "/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir/Laser.cpp.o"
-  "/home/salabeta/BN/robotica2018/practica2/src/choca_autogen/mocs_compilation.cpp" "/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o"
-  "/home/salabeta/BN/robotica2018/practica2/src/commonbehaviorI.cpp" "/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o"
-  "/home/salabeta/BN/robotica2018/practica2/src/genericmonitor.cpp" "/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir/genericmonitor.cpp.o"
-  "/home/salabeta/BN/robotica2018/practica2/src/genericworker.cpp" "/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir/genericworker.cpp.o"
-  "/home/salabeta/robocomp/classes/qlog/qlog.cpp" "/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o"
-  "/home/salabeta/robocomp/classes/rapplication/rapplication.cpp" "/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o"
-  "/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp" "/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o"
-  "/home/salabeta/BN/robotica2018/practica2/src/main.cpp" "/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir/main.cpp.o"
-  "/home/salabeta/BN/robotica2018/practica2/src/specificmonitor.cpp" "/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir/specificmonitor.cpp.o"
-  "/home/salabeta/BN/robotica2018/practica2/src/specificworker.cpp" "/home/salabeta/BN/robotica2018/practica2/src/CMakeFiles/choca.dir/specificworker.cpp.o"
+  "/home/blazeneko/robotica2018/practica2/src/CommonBehavior.cpp" "/home/blazeneko/robotica2018/practica2/src/CMakeFiles/choca.dir/CommonBehavior.cpp.o"
+  "/home/blazeneko/robotica2018/practica2/src/DifferentialRobot.cpp" "/home/blazeneko/robotica2018/practica2/src/CMakeFiles/choca.dir/DifferentialRobot.cpp.o"
+  "/home/blazeneko/robotica2018/practica2/src/GenericBase.cpp" "/home/blazeneko/robotica2018/practica2/src/CMakeFiles/choca.dir/GenericBase.cpp.o"
+  "/home/blazeneko/robotica2018/practica2/src/Laser.cpp" "/home/blazeneko/robotica2018/practica2/src/CMakeFiles/choca.dir/Laser.cpp.o"
+  "/home/blazeneko/robotica2018/practica2/src/choca_autogen/mocs_compilation.cpp" "/home/blazeneko/robotica2018/practica2/src/CMakeFiles/choca.dir/choca_autogen/mocs_compilation.cpp.o"
+  "/home/blazeneko/robotica2018/practica2/src/commonbehaviorI.cpp" "/home/blazeneko/robotica2018/practica2/src/CMakeFiles/choca.dir/commonbehaviorI.cpp.o"
+  "/home/blazeneko/robotica2018/practica2/src/genericmonitor.cpp" "/home/blazeneko/robotica2018/practica2/src/CMakeFiles/choca.dir/genericmonitor.cpp.o"
+  "/home/blazeneko/robotica2018/practica2/src/genericworker.cpp" "/home/blazeneko/robotica2018/practica2/src/CMakeFiles/choca.dir/genericworker.cpp.o"
+  "/home/blazeneko/robocomp/classes/qlog/qlog.cpp" "/home/blazeneko/robotica2018/practica2/src/CMakeFiles/choca.dir/home/blazeneko/robocomp/classes/qlog/qlog.cpp.o"
+  "/home/blazeneko/robocomp/classes/rapplication/rapplication.cpp" "/home/blazeneko/robotica2018/practica2/src/CMakeFiles/choca.dir/home/blazeneko/robocomp/classes/rapplication/rapplication.cpp.o"
+  "/home/blazeneko/robocomp/classes/sigwatch/sigwatch.cpp" "/home/blazeneko/robotica2018/practica2/src/CMakeFiles/choca.dir/home/blazeneko/robocomp/classes/sigwatch/sigwatch.cpp.o"
+  "/home/blazeneko/robotica2018/practica2/src/main.cpp" "/home/blazeneko/robotica2018/practica2/src/CMakeFiles/choca.dir/main.cpp.o"
+  "/home/blazeneko/robotica2018/practica2/src/specificmonitor.cpp" "/home/blazeneko/robotica2018/practica2/src/CMakeFiles/choca.dir/specificmonitor.cpp.o"
+  "/home/blazeneko/robotica2018/practica2/src/specificworker.cpp" "/home/blazeneko/robotica2018/practica2/src/CMakeFiles/choca.dir/specificworker.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -44,18 +44,18 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/robocomp/include"
   "/classes"
   "."
-  "/home/salabeta/robocomp/classes"
-  "/home/salabeta/robocomp/libs"
-  "/home/salabeta/robocomp/interfaces"
+  "/home/blazeneko/robocomp/classes"
+  "/home/blazeneko/robocomp/libs"
+  "/home/blazeneko/robocomp/interfaces"
   "/include"
   )
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/salabeta/BN/robotica2018/practica2/src/CommonBehavior.h" "/home/salabeta/BN/robotica2018/practica2/src/CommonBehavior.cpp"
-  "/home/salabeta/BN/robotica2018/practica2/src/DifferentialRobot.h" "/home/salabeta/BN/robotica2018/practica2/src/DifferentialRobot.cpp"
-  "/home/salabeta/BN/robotica2018/practica2/src/GenericBase.h" "/home/salabeta/BN/robotica2018/practica2/src/GenericBase.cpp"
-  "/home/salabeta/BN/robotica2018/practica2/src/Laser.h" "/home/salabeta/BN/robotica2018/practica2/src/Laser.cpp"
+  "/home/blazeneko/robotica2018/practica2/src/CommonBehavior.h" "/home/blazeneko/robotica2018/practica2/src/CommonBehavior.cpp"
+  "/home/blazeneko/robotica2018/practica2/src/DifferentialRobot.h" "/home/blazeneko/robotica2018/practica2/src/DifferentialRobot.cpp"
+  "/home/blazeneko/robotica2018/practica2/src/GenericBase.h" "/home/blazeneko/robotica2018/practica2/src/GenericBase.cpp"
+  "/home/blazeneko/robotica2018/practica2/src/Laser.h" "/home/blazeneko/robotica2018/practica2/src/Laser.cpp"
   )
 
 
