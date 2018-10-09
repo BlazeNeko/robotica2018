@@ -75,8 +75,8 @@ void SpecificWorker::compute( )
 		}else direccion = -1;
 	
 		std::cout << ldata.front().dist << std::endl;
- 		differentialrobot_proxy->setSpeedBase(100, rot * direccion);
-		usleep(1000000);  //random wait between 1.5s and 
+ 		differentialrobot_proxy->setSpeedBase(5, rot * direccion);
+		usleep(100000);  //random wait between 1.5s and 
 	}
 	else
 	{
