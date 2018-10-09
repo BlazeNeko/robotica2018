@@ -75,12 +75,12 @@ void SpecificWorker::compute( )
 		}else direccion = -1;
 	
 		std::cout << ldata.front().dist << std::endl;
- 		differentialrobot_proxy->setSpeedBase(5, rot * direccion);
-		usleep(100000);  //random wait between 1.5s and 
+ 		differentialrobot_proxy->setSpeedBase(50, rot * direccion);
+		usleep(rand()%(1000000-100000 + 1) + 500000);  //random wait between 1.5s and 
 	}
 	else
 	{
-		differentialrobot_proxy->setSpeedBase(500, 0); 
+		differentialrobot_proxy->setSpeedBase(1000, 0); 
   	}
     }
     catch(const Ice::Exception &ex)

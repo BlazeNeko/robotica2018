@@ -12,13 +12,13 @@ QObject
 signal.h
 -
 
-/home/brio/robocomp/classes/qlog/qlog.cpp
+/home/blazeneko/robocomp/classes/qlog/qlog.cpp
 qlog.h
-/home/brio/robocomp/classes/qlog/qlog.h
+/home/blazeneko/robocomp/classes/qlog/qlog.h
 
-/home/brio/robocomp/classes/qlog/qlog.h
+/home/blazeneko/robocomp/classes/qlog/qlog.h
 config.h
-/home/brio/robocomp/classes/qlog/config.h
+/home/blazeneko/robocomp/classes/qlog/config.h
 QtCore
 -
 iostream
@@ -30,11 +30,11 @@ boost/format.hpp
 boost/format.hpp
 -
 
-/home/brio/robocomp/classes/rapplication/rapplication.cpp
+/home/blazeneko/robocomp/classes/rapplication/rapplication.cpp
 rapplication.h
-/home/brio/robocomp/classes/rapplication/rapplication.h
+/home/blazeneko/robocomp/classes/rapplication/rapplication.h
 
-/home/brio/robocomp/classes/rapplication/rapplication.h
+/home/blazeneko/robocomp/classes/rapplication/rapplication.h
 Ice/Ice.h
 -
 Ice/Application.h
@@ -44,7 +44,7 @@ IceUtil/IceUtil.h
 QtCore
 -
 
-/home/brio/robocomp/classes/sigwatch/sigwatch.cpp
+/home/blazeneko/robocomp/classes/sigwatch/sigwatch.cpp
 sys/socket.h
 -
 unistd.h
@@ -58,17 +58,17 @@ QSocketNotifier
 QDebug
 -
 sigwatch.h
-/home/brio/robocomp/classes/sigwatch/sigwatch.h
+/home/blazeneko/robocomp/classes/sigwatch/sigwatch.h
 moc_sigwatch.cpp
-/home/brio/robocomp/classes/sigwatch/moc_sigwatch.cpp
+/home/blazeneko/robocomp/classes/sigwatch/moc_sigwatch.cpp
 
-/home/brio/robocomp/classes/sigwatch/sigwatch.h
+/home/blazeneko/robocomp/classes/sigwatch/sigwatch.h
 QObject
 -
 signal.h
 -
 
-/home/brio/robotica2018/practica2/src/CommonBehavior.cpp
+/home/blazeneko/robotica2018/practica2/src/CommonBehavior.cpp
 CommonBehavior.h
 -
 IceUtil/PushDisableWarnings.h
@@ -86,7 +86,7 @@ Ice/OutputStream.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/brio/robotica2018/practica2/src/DifferentialRobot.cpp
+/home/blazeneko/robotica2018/practica2/src/DifferentialRobot.cpp
 DifferentialRobot.h
 -
 IceUtil/PushDisableWarnings.h
@@ -106,7 +106,7 @@ Ice/LocalException.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/brio/robotica2018/practica2/src/GenericBase.cpp
+/home/blazeneko/robotica2018/practica2/src/GenericBase.cpp
 GenericBase.h
 -
 IceUtil/PushDisableWarnings.h
@@ -126,7 +126,7 @@ Ice/LocalException.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/brio/robotica2018/practica2/src/Laser.cpp
+/home/blazeneko/robotica2018/practica2/src/Laser.cpp
 Laser.h
 -
 IceUtil/PushDisableWarnings.h
@@ -146,37 +146,37 @@ Ice/LocalException.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/brio/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_genericmonitor.cpp
+/home/blazeneko/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_genericmonitor.cpp
 ../../genericmonitor.h
-/home/brio/robotica2018/practica2/src/genericmonitor.h
+/home/blazeneko/robotica2018/practica2/src/genericmonitor.h
 
-/home/brio/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_genericworker.cpp
+/home/blazeneko/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_genericworker.cpp
 ../../genericworker.h
-/home/brio/robotica2018/practica2/src/genericworker.h
+/home/blazeneko/robotica2018/practica2/src/genericworker.h
 
-/home/brio/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_specificmonitor.cpp
+/home/blazeneko/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_specificmonitor.cpp
 ../../specificmonitor.h
-/home/brio/robotica2018/practica2/src/specificmonitor.h
+/home/blazeneko/robotica2018/practica2/src/specificmonitor.h
 
-/home/brio/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_specificworker.cpp
+/home/blazeneko/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_specificworker.cpp
 ../../specificworker.h
-/home/brio/robotica2018/practica2/src/specificworker.h
+/home/blazeneko/robotica2018/practica2/src/specificworker.h
 
-/home/brio/robotica2018/practica2/src/choca_autogen/mocs_compilation.cpp
+/home/blazeneko/robotica2018/practica2/src/choca_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_genericmonitor.cpp
-/home/brio/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_genericmonitor.cpp
+/home/blazeneko/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_genericmonitor.cpp
 EWIEGA46WW/moc_genericworker.cpp
-/home/brio/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_genericworker.cpp
+/home/blazeneko/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_genericworker.cpp
 EWIEGA46WW/moc_specificmonitor.cpp
-/home/brio/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_specificmonitor.cpp
+/home/blazeneko/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_specificmonitor.cpp
 EWIEGA46WW/moc_specificworker.cpp
-/home/brio/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_specificworker.cpp
+/home/blazeneko/robotica2018/practica2/src/choca_autogen/EWIEGA46WW/moc_specificworker.cpp
 
-/home/brio/robotica2018/practica2/src/commonbehaviorI.cpp
+/home/blazeneko/robotica2018/practica2/src/commonbehaviorI.cpp
 commonbehaviorI.h
-/home/brio/robotica2018/practica2/src/commonbehaviorI.h
+/home/blazeneko/robotica2018/practica2/src/commonbehaviorI.h
 
-/home/brio/robotica2018/practica2/src/commonbehaviorI.h
+/home/blazeneko/robotica2018/practica2/src/commonbehaviorI.h
 Ice/Ice.h
 -
 CommonBehavior.h
@@ -184,37 +184,37 @@ CommonBehavior.h
 config.h
 -
 genericworker.h
-/home/brio/robotica2018/practica2/src/genericworker.h
+/home/blazeneko/robotica2018/practica2/src/genericworker.h
 genericmonitor.h
-/home/brio/robotica2018/practica2/src/genericmonitor.h
+/home/blazeneko/robotica2018/practica2/src/genericmonitor.h
 
-/home/brio/robotica2018/practica2/src/config.h
+/home/blazeneko/robotica2018/practica2/src/config.h
 
-/home/brio/robotica2018/practica2/src/genericmonitor.cpp
+/home/blazeneko/robotica2018/practica2/src/genericmonitor.cpp
 genericmonitor.h
-/home/brio/robotica2018/practica2/src/genericmonitor.h
+/home/blazeneko/robotica2018/practica2/src/genericmonitor.h
 
-/home/brio/robotica2018/practica2/src/genericmonitor.h
+/home/blazeneko/robotica2018/practica2/src/genericmonitor.h
 Ice/Ice.h
 -
 QtCore
 -
 genericworker.h
-/home/brio/robotica2018/practica2/src/genericworker.h
+/home/blazeneko/robotica2018/practica2/src/genericworker.h
 config.h
-/home/brio/robotica2018/practica2/src/config.h
+/home/blazeneko/robotica2018/practica2/src/config.h
 qlog/qlog.h
 -
 CommonBehavior.h
 -
 
-/home/brio/robotica2018/practica2/src/genericworker.cpp
+/home/blazeneko/robotica2018/practica2/src/genericworker.cpp
 genericworker.h
-/home/brio/robotica2018/practica2/src/genericworker.h
+/home/blazeneko/robotica2018/practica2/src/genericworker.h
 
-/home/brio/robotica2018/practica2/src/genericworker.h
+/home/blazeneko/robotica2018/practica2/src/genericworker.h
 config.h
-/home/brio/robotica2018/practica2/src/config.h
+/home/blazeneko/robotica2018/practica2/src/config.h
 QtGui
 -
 stdint.h
@@ -234,7 +234,7 @@ Laser.h
 GenericBase.h
 -
 
-/home/brio/robotica2018/practica2/src/main.cpp
+/home/blazeneko/robotica2018/practica2/src/main.cpp
 signal.h
 -
 QtCore
@@ -254,17 +254,17 @@ sigwatch/sigwatch.h
 qlog/qlog.h
 -
 config.h
-/home/brio/robotica2018/practica2/src/config.h
+/home/blazeneko/robotica2018/practica2/src/config.h
 genericmonitor.h
-/home/brio/robotica2018/practica2/src/genericmonitor.h
+/home/blazeneko/robotica2018/practica2/src/genericmonitor.h
 genericworker.h
-/home/brio/robotica2018/practica2/src/genericworker.h
+/home/blazeneko/robotica2018/practica2/src/genericworker.h
 specificworker.h
-/home/brio/robotica2018/practica2/src/specificworker.h
+/home/blazeneko/robotica2018/practica2/src/specificworker.h
 specificmonitor.h
-/home/brio/robotica2018/practica2/src/specificmonitor.h
+/home/blazeneko/robotica2018/practica2/src/specificmonitor.h
 commonbehaviorI.h
-/home/brio/robotica2018/practica2/src/commonbehaviorI.h
+/home/blazeneko/robotica2018/practica2/src/commonbehaviorI.h
 DifferentialRobot.h
 -
 GenericBase.h
@@ -274,19 +274,19 @@ Laser.h
 GenericBase.h
 -
 
-/home/brio/robotica2018/practica2/src/specificmonitor.cpp
+/home/blazeneko/robotica2018/practica2/src/specificmonitor.cpp
 specificmonitor.h
-/home/brio/robotica2018/practica2/src/specificmonitor.h
+/home/blazeneko/robotica2018/practica2/src/specificmonitor.h
 
-/home/brio/robotica2018/practica2/src/specificmonitor.h
+/home/blazeneko/robotica2018/practica2/src/specificmonitor.h
 genericmonitor.h
-/home/brio/robotica2018/practica2/src/genericmonitor.h
+/home/blazeneko/robotica2018/practica2/src/genericmonitor.h
 
-/home/brio/robotica2018/practica2/src/specificworker.cpp
+/home/blazeneko/robotica2018/practica2/src/specificworker.cpp
 specificworker.h
-/home/brio/robotica2018/practica2/src/specificworker.h
+/home/blazeneko/robotica2018/practica2/src/specificworker.h
 
-/home/brio/robotica2018/practica2/src/specificworker.h
+/home/blazeneko/robotica2018/practica2/src/specificworker.h
 genericworker.h
 -
 innermodel/innermodel.h
