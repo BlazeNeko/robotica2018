@@ -31,8 +31,7 @@
 #include <innermodel/innermodel.h>
 
 struct target {
-	Pick picker;
-	QMutex mutex;
+	Pick pick;	
 	bool isActive;
 };
 
@@ -51,6 +50,7 @@ public slots:
 	void compute();
 
 private:
+	target t;
 	target targ;
 	InnerModel *innerModel;
 

@@ -23,7 +23,7 @@
 */
 SpecificWorker::SpecificWorker(MapPrx& mprx) : GenericWorker(mprx)
 {
-
+	
 }
 
 /**
@@ -53,6 +53,16 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 
 
 	return true;
+}
+
+void setPick(const Pick &myPick){
+	QMutexLocker locker(mutex);
+	targ.pick = myPick;
+}
+
+Pick getPick(){
+	QMutexLocker locker(mutex);
+	return target.pick;
 }
 
 void SpecificWorker::compute()
