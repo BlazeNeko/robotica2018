@@ -62,7 +62,7 @@ void setPick(const Pick &myPick){
 
 Pick getPick(){
 	QMutexLocker locker(mutex);
-	return target.pick;
+	return targ.pick;
 }
 
 void SpecificWorker::compute()
@@ -74,8 +74,8 @@ void SpecificWorker::compute()
 
 	std::cout << bstate.x << " " << bstate.z << std::endl;
 
-	if(target.isActive) {
-		auto tw =target.get();
+	if(targ.isActive) {
+		auto tw =targ.get();
 		Rot2D rot (bstate.alfa);
 		Qvec y = Qvec::vec3(t.x,0,t.z);
 		Qvec y = Qvec::vec3(cstate.x,0,bstate.z);
@@ -83,7 +83,7 @@ void SpecificWorker::compute()
 		qDebug() << r;	
 
 	}
-
+	
 	//computeCODE
 // 	try
 // 	{

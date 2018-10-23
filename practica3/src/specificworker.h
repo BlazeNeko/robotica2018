@@ -46,11 +46,12 @@ public:
 
 	void setPick(const Pick &myPick);
 
+	Pick getPick();
+
 public slots:
 	void compute();
 
 private:
-	target t;
 	target targ;
 	InnerModel *innerModel;
 
