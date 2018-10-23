@@ -56,12 +56,12 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 	return true;
 }
 
-void setPick(const Pick &myPick){
+void SpecificWorker::setPick(const Pick &myPick){
 	QMutexLocker locker(mutex);
 	targ.pick = myPick;
 }
 
-Pick getPick(){
+Pick SpecificWorker::getMyPick(){
 	QMutexLocker locker(mutex);
 	return targ.pick;
 }
@@ -74,36 +74,18 @@ void SpecificWorker::compute()
 	//differentialrobot_proxy->setSpeedBase(bState);	
 
 	std::cout << bState.x << " " << bState.z << std::endl;
-/*
+
 	if(targ.isActive) {
-		auto tw =targ.get();
-		Rot2D rot (bState.alfa);
-		Qvec y = Qvec::vec3(t.x,0,t.z);
-		Qvec y = Qvec::vec3(bState.x,0,bState.z);
-		auto r = rot.invert() * (y-t);
-		qDebug() << r;	
+		auto tw =getMyPick();
+		Rot2D rot (bState.alpha);
+		QVector3D y = QVector3D(getMyPick().x,0,getMyPick().z);
+		QVector3D t = QVector3D(bState.x,0,bState.z);
+		//auto r = rot.invert() * (y-t);
+		//qDebug() << r;	
 
-	}*/
-	
-	//computeCODE
-// 	try
-// 	{
-// 		camera_proxy->getYImage(0,img, cState, bState);
-// 		memcpy(image_gray.data, &img[0], m_width*m_height*sizeof(uchar));
-// 		searchTags(image_gray);
-// 	}
-// 	catch(const Ice::Exception &e)
-// 	{
-// 		std::cout << "Error reading from Camera" << e << std::endl;
-// 	}
-}
-
-
-void SpecificWorker::setPick(const Pick &myPick)
-{
-	std::cout << myPick.x << " " << myPick.z << std::endl;
-//subscribesToCODE
+	}
 
 }
+
 
 

@@ -46,7 +46,7 @@ public:
 
 	void setPick(const Pick &myPick);
 
-	Pick getPick();
+	Pick getMyPick();
 
 public slots:
 	void compute();

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/salabeta/robocomp/components/robotica2018/practica3
+CMAKE_SOURCE_DIR = /home/brio/robocomp/components/robotica2018/practica3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/salabeta/robocomp/components/robotica2018/practica3
+CMAKE_BINARY_DIR = /home/brio/robocomp/components/robotica2018/practica3
 
 # Utility rule file for move_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/salabeta/robocomp/components/robotica2018/practica3
 include src/CMakeFiles/move_autogen.dir/progress.make
 
 src/CMakeFiles/move_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/robotica2018/practica3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target move"
-	cd /home/salabeta/robocomp/components/robotica2018/practica3/src && /usr/bin/cmake -E cmake_autogen /home/salabeta/robocomp/components/robotica2018/practica3/src/CMakeFiles/move_autogen.dir ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/brio/robocomp/components/robotica2018/practica3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target move"
+	cd /home/brio/robocomp/components/robotica2018/practica3/src && /usr/bin/cmake -E cmake_autogen /home/brio/robocomp/components/robotica2018/practica3/src/CMakeFiles/move_autogen.dir ""
 
 move_autogen: src/CMakeFiles/move_autogen
 move_autogen: src/CMakeFiles/move_autogen.dir/build.make
@@ -68,10 +68,10 @@ src/CMakeFiles/move_autogen.dir/build: move_autogen
 .PHONY : src/CMakeFiles/move_autogen.dir/build
 
 src/CMakeFiles/move_autogen.dir/clean:
-	cd /home/salabeta/robocomp/components/robotica2018/practica3/src && $(CMAKE_COMMAND) -P CMakeFiles/move_autogen.dir/cmake_clean.cmake
+	cd /home/brio/robocomp/components/robotica2018/practica3/src && $(CMAKE_COMMAND) -P CMakeFiles/move_autogen.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/move_autogen.dir/clean
 
 src/CMakeFiles/move_autogen.dir/depend:
-	cd /home/salabeta/robocomp/components/robotica2018/practica3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/salabeta/robocomp/components/robotica2018/practica3 /home/salabeta/robocomp/components/robotica2018/practica3/src /home/salabeta/robocomp/components/robotica2018/practica3 /home/salabeta/robocomp/components/robotica2018/practica3/src /home/salabeta/robocomp/components/robotica2018/practica3/src/CMakeFiles/move_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/brio/robocomp/components/robotica2018/practica3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brio/robocomp/components/robotica2018/practica3 /home/brio/robocomp/components/robotica2018/practica3/src /home/brio/robocomp/components/robotica2018/practica3 /home/brio/robocomp/components/robotica2018/practica3/src /home/brio/robocomp/components/robotica2018/practica3/src/CMakeFiles/move_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/move_autogen.dir/depend
 
