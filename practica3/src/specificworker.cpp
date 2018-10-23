@@ -21,6 +21,7 @@
 /**
 * \brief Default constructor
 */
+target targ;
 SpecificWorker::SpecificWorker(MapPrx& mprx) : GenericWorker(mprx)
 {
 	
@@ -68,21 +69,21 @@ Pick getPick(){
 void SpecificWorker::compute()
 {
 	QMutexLocker locker(mutex);
-	RoboCompDifferentialRobot::TBaseState bState;
+	static RoboCompGenericBase::TBaseState bState;
 	differentialrobot_proxy->getBaseState(bState);
-	differentialrobot_proxy->setSpeedBase(bstate);	
+	//differentialrobot_proxy->setSpeedBase(bState);	
 
-	std::cout << bstate.x << " " << bstate.z << std::endl;
-
+	std::cout << bState.x << " " << bState.z << std::endl;
+/*
 	if(targ.isActive) {
 		auto tw =targ.get();
-		Rot2D rot (bstate.alfa);
+		Rot2D rot (bState.alfa);
 		Qvec y = Qvec::vec3(t.x,0,t.z);
-		Qvec y = Qvec::vec3(cstate.x,0,bstate.z);
+		Qvec y = Qvec::vec3(bState.x,0,bState.z);
 		auto r = rot.invert() * (y-t);
 		qDebug() << r;	
 
-	}
+	}*/
 	
 	//computeCODE
 // 	try

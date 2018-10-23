@@ -52,7 +52,6 @@ public slots:
 	void compute();
 
 private:
-	target targ;
 	InnerModel *innerModel;
 
 };
