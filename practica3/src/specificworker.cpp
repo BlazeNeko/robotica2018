@@ -58,6 +58,22 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 void SpecificWorker::compute()
 {
 	QMutexLocker locker(mutex);
+	RoboCompDifferentialRobot::TBaseState bState;
+	differentialrobot_proxy->getBaseState(bState);
+	differentialrobot_proxy->setSpeedBase(bstate);	
+
+	std::cout << bstate.x << " " << bstate.z << std::endl;
+
+	if(target.isActive) {
+		auto tw =target.get();
+		Rot2D rot (bstate.alfa);
+		Qvec y = Qvec::vec3(t.x,0,t.z);
+		Qvec y = Qvec::vec3(cstate.x,0,bstate.z);
+		auto r = rot.invert() * (y-t);
+		qDebug() << r;	
+
+	}
+
 	//computeCODE
 // 	try
 // 	{

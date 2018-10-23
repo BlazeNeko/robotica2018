@@ -33,7 +33,8 @@
 struct target {
 	Pick picker;
 	QMutex mutex;
-}
+	bool isActive;
+};
 
 class SpecificWorker : public GenericWorker
 {
