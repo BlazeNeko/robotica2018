@@ -17,6 +17,7 @@
  *    along with RoboComp.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "specificworker.h"
+#include <QtMath>
 
 /**
 * \brief Default constructor
@@ -57,33 +58,29 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 }
 
 void SpecificWorker::setPick(const Pick &myPick){
-	QMutexLocker locker(mutex);
 	targ.pick = myPick;
 }
 
-Pick SpecificWorker::getMyPick(){
-	QMutexLocker locker(mutex);
-	return targ.pick;
-}
 
 void SpecificWorker::compute()
 {
-	QMutexLocker locker(mutex);
-	static RoboCompGenericBase::TBaseState bState;
+	const float threshold = 150;
+	
+	RoboCompGenericBase::TBaseState bState;
 	differentialrobot_proxy->getBaseState(bState);
-	//differentialrobot_proxy->setSpeedBase(bState);	
 
-	std::cout << bState.x << " " << bState.z << std::endl;
+	Rot2D robotAngle(bState.alpha);
+	auto position = robotAngle.invert * (Qvec::vec2(target.getX() - bState.x, target.getZ() - bState.z));
+	
+	float rotAngle = atan2(position.x(), position.y());
+	float dir = position.norm2();
+	
+	differentialrobot_proxy->setSpeedBase(100, rotAngle);
+		
+}
 
-	if(targ.isActive) {
-		auto tw =getMyPick();
-		Rot2D rot (bState.alpha);
-		QVector3D y = QVector3D(getMyPick().x,0,getMyPick().z);
-		QVector3D t = QVector3D(bState.x,0,bState.z);
-		//auto r = rot.invert() * (y-t);
-		//qDebug() << r;	
 
-	}
+
 
 }
 

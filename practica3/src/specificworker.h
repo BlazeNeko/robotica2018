@@ -32,7 +32,23 @@
 
 struct target {
 	Pick pick;	
-	bool isActive;
+	bool status;
+	
+	setPick(Pick newPick) {
+	    pick = newPick;
+	}
+	getX() {
+		return pick.x;
+	}
+	getZ() {
+		return pick.z;		
+	}
+	toogleStatus() {
+		status = !status;	
+	}
+	getStatus() {
+		return status;
+	}
 };
 
 class SpecificWorker : public GenericWorker
