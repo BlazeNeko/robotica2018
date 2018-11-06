@@ -1,5 +1,6 @@
+
 /*
- *    Copyright (C)2018 by YOUR NAME HERE
+ *    Copyright (C) 2010 by RoboLab - University of Extremadura
  *
  *    This file is part of RoboComp
  *
@@ -16,64 +17,31 @@
  *    You should have received a copy of the GNU General Public License
  *    along with RoboComp.  If not, see <http://www.gnu.org/licenses/>.
  */
+#ifndef SPECIFICMONITOR_H
+#define SPECIFICMONITOR_H
+
+#include "genericmonitor.h"
 
 /**
        \brief
        @author authorname
 */
-
-
-
-#ifndef SPECIFICWORKER_H
-#define SPECIFICWORKER_H
-
-#include <genericworker.h>
-#include <innermodel/innermodel.h>
-
-
-struct target {
-	Pick pick;	
-	bool status;
-	
-	void setPick(Pick newPick) {
-	    pick = newPick;
-	}
-	float getX() {
-		return pick.x;
-	}
-	float getZ() {
-		return pick.z;		
-	}
-	void toogleStatus() {
-		status = !status;	
-	}
-	bool getStatus() {
-		return status;
-	}
-};
-
-class SpecificWorker : public GenericWorker
+class SpecificMonitor : public GenericMonitor
 {
-Q_OBJECT
-
-
-
-public:
-
-	SpecificWorker(MapPrx& mprx);
-	~SpecificWorker();
-	bool setParams(RoboCompCommonBehavior::ParameterList params);
-	target targ;
-	void setPick(const Pick &myPick);
-
-	Pick getMyPick();
-
-public slots:
-	void compute();
-
-private:
-	InnerModel *innerModel;
-
+  Q_OBJECT
+  
+  public:
+	SpecificMonitor(GenericWorker *_worker, Ice::CommunicatorPtr _communicator);
+	~SpecificMonitor();
+	
+	void readConfig(RoboCompCommonBehavior::ParameterList &params );
+	void run();
+	void initialize();
+    
+	bool sendParamsToWorker(RoboCompCommonBehavior::ParameterList params);
+	bool checkParams(RoboCompCommonBehavior::ParameterList l);
+	
+	bool ready;
 };
 
-#endif
+#endif // GENERICMONITOR_H

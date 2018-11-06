@@ -30,43 +30,15 @@
 #include <genericworker.h>
 #include <innermodel/innermodel.h>
 
-
-struct target {
-	Pick pick;	
-	bool status;
-	
-	void setPick(Pick newPick) {
-	    pick = newPick;
-	}
-	float getX() {
-		return pick.x;
-	}
-	float getZ() {
-		return pick.z;		
-	}
-	void toogleStatus() {
-		status = !status;	
-	}
-	bool getStatus() {
-		return status;
-	}
-};
-
 class SpecificWorker : public GenericWorker
 {
 Q_OBJECT
-
-
-
 public:
-
 	SpecificWorker(MapPrx& mprx);
 	~SpecificWorker();
 	bool setParams(RoboCompCommonBehavior::ParameterList params);
-	target targ;
-	void setPick(const Pick &myPick);
 
-	Pick getMyPick();
+	void setPick(const Pick &myPick);
 
 public slots:
 	void compute();

@@ -17,7 +17,7 @@
  *    along with RoboComp.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "specificworker.h"
-#include <QtMath>
+#include <numeric>
 
 /**
 * \brief Default constructor
@@ -58,7 +58,7 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 }
 
 void SpecificWorker::setPick(const Pick &myPick){
-	targ.pick = myPick;
+	targ.setPick(myPick);
 }
 
 
@@ -66,22 +66,27 @@ void SpecificWorker::compute()
 {
 	const float threshold = 150;
 	
+	// Obtener estado del mapa base	
 	RoboCompGenericBase::TBaseState bState;
 	differentialrobot_proxy->getBaseState(bState);
 
+	// Obtener posición del robot
 	Rot2D robotAngle(bState.alpha);
-	auto position = robotAngle.invert * (Qvec::vec2(target.getX() - bState.x, target.getZ() - bState.z));
-	
+	auto position = robotAngle.invert() * (QVec::vec2(targ.getX() - bState.x, targ.getZ() - bState.z));
+
+	// Obtener angulo y distancia
 	float rotAngle = atan2(position.x(), position.y());
 	float dir = position.norm2();
 	
-	differentialrobot_proxy->setSpeedBase(100, rotAngle);
-		
-}
-
-
-
-
+	if(dir < threshold) {
+		differentialrobot_proxy->setSpeedBase(0, 0);
+	}
+	else if(std::abs(rotAngle) > .1) {
+		differentialrobot_proxy->setSpeedBase(0, rotAngle);	
+	}
+	else {
+		differentialrobot_proxy->setSpeedBase(1000, 0);
+	}
 }
 
 
