@@ -44,6 +44,7 @@ public slots:
 	void compute();
 
 private:
+	enum {IDLE,GOTO,BUG};
 	InnerModel *innerModel;
 
 };
