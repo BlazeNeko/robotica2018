@@ -80,6 +80,13 @@ void SpecificWorker::compute()
 	
 	if(dir < threshold) {
 		differentialrobot_proxy->setSpeedBase(0, 0);
+		targ.currentSize--;
+		if(targ.currentSize!=0){
+			if(index < targ.MAXPICKS-1)		
+				targ.index++;
+			else
+				targ.index=0;
+		}
 	}
 	else if(std::abs(rotAngle) > .1) {
 		differentialrobot_proxy->setSpeedBase(0, rotAngle);	

@@ -32,17 +32,23 @@
 
 
 struct target {
-	Pick pick;	
+	int MAXPICKS = 10;
+	Pick pick[MAXPICKS];
+	int currentSize=0;	
+	int index=0;
 	bool status;
 	
 	void setPick(Pick newPick) {
-	    pick = newPick;
+	if(currentSize < MAXPICKS){
+	    pick[index] = newPick;
+	    index++;	
+	    }
 	}
 	float getX() {
-		return pick.x;
+		return pick[index].x;
 	}
 	float getZ() {
-		return pick.z;		
+		return pick[index].z;		
 	}
 	void toogleStatus() {
 		status = !status;	

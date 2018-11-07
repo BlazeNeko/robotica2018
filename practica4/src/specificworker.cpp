@@ -70,38 +70,35 @@ void SpecificMonitor::readConfig(RoboCompCommonBehavior::ParameterList &params )
 void SpecificWorker::compute()
 {
 
-   differentialrobot_proxy->getBaseState(bState);
+	differentialrobot_proxy->getBaseState(bState);
 
-   laserData = laser_proxy->getLaserData();
+	RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData();  //read laser data 
 
-  innermodel->updateTranslationPointers("base", bState.x, 0, bState.y ,0, bState.alpha, 0);
+	std::sort( ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b){ return a.dist < b.dist; }) ; //sort laser data from small to large distances using a lambda function.
 
-  switch( state )
+	innermodel->updateTranslationPointers("base", bState.x, 0, bState.y ,0, bState.alpha, 0);
 
- {
+	switch( state ){
 
-   case State::IDLE:
-
-   if ( target.isActive() )
-
-    state = State::GOTO;
-
-    break;
-
-
-   case State::GOTO:
-
-    gotoTarget();
-
-    break;
-
-   case State::BUG:
-
-    bug();
-
-    break;
-
-  }
+		case State::IDLE:
+			if ( target.isActive() )
+				//P1 = punto origen del robot
+				//P2 = target.pick[index]
+				//Ecuacion general de la recta: Ax + By + C = 0
+				//A = -P2x - P1x 
+				//B = P2z - P1z
+				//C = -(A*P1x + B*P1z)
+				//La recta la usamos para que el robot termine de rodear al obstáculo cuando se encuentra de nuevo en la recta entre el origen y el destino
+				//calcular aqui el origen del robot y los valores A, B y C para el cálculo de la recta, que se usa enla función bug().
+				state = State::GOTO;
+		break;
+		case State::GOTO:
+			gotoTarget();
+		break;
+		case State::BUG:
+			bug();
+		break;
+	}
 
 }
 
@@ -109,7 +106,7 @@ void SpecificWorker::gotoTarget()
 
  {
 
-    if( obstacle == true)   // If ther is an obstacle ahead, then transit to BUG
+    if( obstacle == true)   // If there is an obstacle ahead, then transit to BUG
 
    {
 
@@ -147,7 +144,9 @@ void SpecificWorker::gotoTarget()
 
 void SpecificWorker::bug()
 {
-
+	//Usar la recta calculada previamente (las variables A, B y C)
+	//la recta permite al robot dejar de rodear al obstáculo cuando el robot se encuentra de nuevo en ella. (if( A * posRobot.x + B * posRobot.z + C == 0), terminar el bug).
+	//En vez de hacer que el robot esté exactamente en la recta ( ecuacion == 0), le damos un margen de error tanto positivo como negativo ( < 1 y > -1 )
 }
 
 bool SpecificWorker::obstacle()
