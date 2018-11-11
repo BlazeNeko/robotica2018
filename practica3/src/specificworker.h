@@ -30,18 +30,16 @@
 #include <genericworker.h>
 #include <innermodel/innermodel.h>
 
-
 struct target {
-	int MAXPICKS = 10;
-	Pick pick[MAXPICKS];
+	Pick pick[10];;
 	int currentSize=0;	
 	int index=0;
 	bool status;
 	
 	void setPick(Pick newPick) {
-	if(currentSize < MAXPICKS){
-	    pick[index] = newPick;
-	    index++;	
+	if(currentSize < 10){
+	    pick[currentSize] = newPick;
+	    currentSize++;
 	    }
 	}
 	float getX() {

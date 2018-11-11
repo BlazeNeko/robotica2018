@@ -77,22 +77,22 @@ void SpecificWorker::compute()
 	// Obtener angulo y distancia
 	float rotAngle = atan2(position.x(), position.y());
 	float dir = position.norm2();
-	
-	if(dir < threshold) {
-		differentialrobot_proxy->setSpeedBase(0, 0);
-		targ.currentSize--;
-		if(targ.currentSize!=0){
-			if(index < targ.MAXPICKS-1)		
-				targ.index++;
-			else
-				targ.index=0;
+	if(targ.currentSize!=0){
+		if(dir < threshold) {
+			differentialrobot_proxy->setSpeedBase(0, 0);
+			
+				if(targ.index < 9)		
+					targ.index++;
+				else
+					targ.index=0;
+			
 		}
-	}
-	else if(std::abs(rotAngle) > .1) {
-		differentialrobot_proxy->setSpeedBase(0, rotAngle);	
-	}
-	else {
-		differentialrobot_proxy->setSpeedBase(1000, 0);
+		else if(std::abs(rotAngle) > .1) {
+			differentialrobot_proxy->setSpeedBase(0, rotAngle);	
+		}
+		else {
+			differentialrobot_proxy->setSpeedBase(1000, 0);
+		}
 	}
 }
 
