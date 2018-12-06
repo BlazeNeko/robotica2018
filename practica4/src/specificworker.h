@@ -29,23 +29,75 @@
 
 #include <genericworker.h>
 #include <innermodel/innermodel.h>
+//
+struct target {
+    Pick pick[10];
+    int currentSize=0;
+    int index=0;
+    bool status = false;
+
+    void setPick(Pick newPick) {
+        status = true;
+        if(currentSize < 10) {
+            pick[currentSize] = newPick;
+            currentSize++;
+        }
+    }
+    float getX() {
+        return pick[index].x;
+    }
+    float getZ() {
+        return pick[index].z;
+    }
+    void toogleStatus() {
+        status = !status;
+    }
+    bool getStatus() {
+        return status;
+    }
+};
+//
+enum State {IDLE,GOTO,BUG};
+//
+struct line {
+    float A;
+    float B;
+    float C;
+};
+
 
 class SpecificWorker : public GenericWorker
 {
-Q_OBJECT
+    Q_OBJECT
 public:
-	SpecificWorker(MapPrx& mprx);
-	~SpecificWorker();
-	bool setParams(RoboCompCommonBehavior::ParameterList params);
-
-	void setPick(const Pick &myPick);
+    SpecificWorker(MapPrx& mprx);
+    ~SpecificWorker();
+    bool setParams(RoboCompCommonBehavior::ParameterList params);
+    //
+    void bug();
+    //
+    bool obstacle();
+    //
+    bool targetAtSight();
+    //
+    void goTarget();
+    //
+    void setPick(const Pick &myPick);
 
 public slots:
-	void compute();
+    void compute();
 
 private:
-	enum {IDLE,GOTO,BUG};
-	InnerModel *innerModel;
+    //
+    int threshold;
+    //
+    State stateWork;
+    //
+    InnerModel *innerModel;
+    //
+    target targ;
+    //
+    line linear;
 
 };
 
