@@ -31,22 +31,17 @@
 #include <innermodel/innermodel.h>
 
 struct target {
-	Pick pick[10];;
-	int currentSize=0;	
-	int index=0;
+	Pick pick;
 	bool status;
 	
 	void setPick(Pick newPick) {
-	if(currentSize < 10){
-	    pick[currentSize] = newPick;
-	    currentSize++;
-	    }
+	    pick = newPick;
 	}
 	float getX() {
-		return pick[index].x;
+		return pick.x;
 	}
 	float getZ() {
-		return pick[index].z;		
+		return pick.z;		
 	}
 	void toogleStatus() {
 		status = !status;	

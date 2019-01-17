@@ -73,23 +73,20 @@ void SpecificWorker::compute()
 	// Obtener posición del robot
 	Rot2D robotAngle(bState.alpha);
 	auto position = robotAngle.invert() * (QVec::vec2(targ.getX() - bState.x, targ.getZ() - bState.z));
-
 	// Obtener angulo y distancia
 	float rotAngle = atan2(position.x(), position.y());
 	float dir = position.norm2();
-	if(targ.currentSize!=0){
+	if(targ.getStatus()){
+		//Si está en el sitio se para y cambia el estado
 		if(dir < threshold) {
 			differentialrobot_proxy->setSpeedBase(0, 0);
-			
-				if(targ.index < 9)		
-					targ.index++;
-				else
-					targ.index=0;
-			
+			targ.toogleStatus();
 		}
+		//Si está en un ángulo distinto, se gira
 		else if(std::abs(rotAngle) > .1) {
 			differentialrobot_proxy->setSpeedBase(0, rotAngle);	
 		}
+		//Si está en la dirección del sitio, aumenta la velocidad
 		else {
 			differentialrobot_proxy->setSpeedBase(1000, 0);
 		}
