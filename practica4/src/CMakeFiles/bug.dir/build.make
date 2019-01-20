@@ -57,37 +57,37 @@ include src/CMakeFiles/bug.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/bug.dir/flags.make
 
-src/CommonBehavior.cpp: /home/brio/robocomp/interfaces/CommonBehavior.ice
+src/CommonBehavior.cpp: /opt/robocomp/interfaces/CommonBehavior.ice
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CommonBehavior.cpp and CommonBehavior.h from CommonBehavior.ice"
-	cd /home/brio/robocomp/components/robotica2018/practica4/src && slice2cpp --underscore -I/home/brio/robocomp//interfaces/ -I/home/brio/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/brio/robocomp/interfaces/CommonBehavior.ice --output-dir .
+	cd /home/brio/robocomp/components/robotica2018/practica4/src && slice2cpp --underscore -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/CommonBehavior.ice --output-dir .
 
 src/CommonBehavior.h: src/CommonBehavior.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/CommonBehavior.h
 
-src/DifferentialRobot.cpp: /home/brio/robocomp/interfaces/DifferentialRobot.ice
+src/DifferentialRobot.cpp: /opt/robocomp/interfaces/DifferentialRobot.ice
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating DifferentialRobot.cpp and DifferentialRobot.h from DifferentialRobot.ice"
-	cd /home/brio/robocomp/components/robotica2018/practica4/src && slice2cpp --underscore -I/home/brio/robocomp//interfaces/ -I/home/brio/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/brio/robocomp/interfaces/DifferentialRobot.ice --output-dir .
+	cd /home/brio/robocomp/components/robotica2018/practica4/src && slice2cpp --underscore -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/DifferentialRobot.ice --output-dir .
 
 src/DifferentialRobot.h: src/DifferentialRobot.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/DifferentialRobot.h
 
-src/GenericBase.cpp: /home/brio/robocomp/interfaces/GenericBase.ice
+src/GenericBase.cpp: /opt/robocomp/interfaces/GenericBase.ice
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating GenericBase.cpp and GenericBase.h from GenericBase.ice"
-	cd /home/brio/robocomp/components/robotica2018/practica4/src && slice2cpp --underscore -I/home/brio/robocomp//interfaces/ -I/home/brio/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/brio/robocomp/interfaces/GenericBase.ice --output-dir .
+	cd /home/brio/robocomp/components/robotica2018/practica4/src && slice2cpp --underscore -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/GenericBase.ice --output-dir .
 
 src/GenericBase.h: src/GenericBase.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/GenericBase.h
 
-src/Laser.cpp: /home/brio/robocomp/interfaces/Laser.ice
+src/Laser.cpp: /opt/robocomp/interfaces/Laser.ice
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Laser.cpp and Laser.h from Laser.ice"
-	cd /home/brio/robocomp/components/robotica2018/practica4/src && slice2cpp --underscore -I/home/brio/robocomp//interfaces/ -I/home/brio/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/brio/robocomp/interfaces/Laser.ice --output-dir .
+	cd /home/brio/robocomp/components/robotica2018/practica4/src && slice2cpp --underscore -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/Laser.ice --output-dir .
 
 src/Laser.h: src/Laser.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/Laser.h
 
-src/RCISMousePicker.cpp: /home/brio/robocomp/interfaces/RCISMousePicker.ice
+src/RCISMousePicker.cpp: /opt/robocomp/interfaces/RCISMousePicker.ice
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating RCISMousePicker.cpp and RCISMousePicker.h from RCISMousePicker.ice"
-	cd /home/brio/robocomp/components/robotica2018/practica4/src && slice2cpp --underscore -I/home/brio/robocomp//interfaces/ -I/home/brio/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/brio/robocomp/interfaces/RCISMousePicker.ice --output-dir .
+	cd /home/brio/robocomp/components/robotica2018/practica4/src && slice2cpp --underscore -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/RCISMousePicker.ice --output-dir .
 
 src/RCISMousePicker.h: src/RCISMousePicker.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/RCISMousePicker.h
@@ -144,76 +144,76 @@ src/CMakeFiles/bug.dir/specificmonitor.cpp.o.provides: src/CMakeFiles/bug.dir/sp
 src/CMakeFiles/bug.dir/specificmonitor.cpp.o.provides.build: src/CMakeFiles/bug.dir/specificmonitor.cpp.o
 
 
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o: src/CMakeFiles/bug.dir/flags.make
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o: /home/brio/robocomp/classes/rapplication/rapplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o"
-	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o -c /home/brio/robocomp/classes/rapplication/rapplication.cpp
+src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o: src/CMakeFiles/bug.dir/flags.make
+src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o: /opt/robocomp/classes/rapplication/rapplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o"
+	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o -c /opt/robocomp/classes/rapplication/rapplication.cpp
 
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.i"
-	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brio/robocomp/classes/rapplication/rapplication.cpp > CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.i
+src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.i"
+	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/robocomp/classes/rapplication/rapplication.cpp > CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.i
 
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.s"
-	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brio/robocomp/classes/rapplication/rapplication.cpp -o CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.s
+src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.s"
+	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/robocomp/classes/rapplication/rapplication.cpp -o CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.s
 
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o.requires:
+src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.requires:
 
-.PHONY : src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o.requires
+.PHONY : src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.requires
 
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o.provides: src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/bug.dir/build.make src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o.provides.build
-.PHONY : src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o.provides
+src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.provides: src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/bug.dir/build.make src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.provides.build
+.PHONY : src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.provides
 
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o.provides.build: src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o
-
-
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o: src/CMakeFiles/bug.dir/flags.make
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o: /home/brio/robocomp/classes/sigwatch/sigwatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o"
-	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o -c /home/brio/robocomp/classes/sigwatch/sigwatch.cpp
-
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.i"
-	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brio/robocomp/classes/sigwatch/sigwatch.cpp > CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.i
-
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.s"
-	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brio/robocomp/classes/sigwatch/sigwatch.cpp -o CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.s
-
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o.requires:
-
-.PHONY : src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
-
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o.provides: src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/bug.dir/build.make src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build
-.PHONY : src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o.provides
-
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build: src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o
+src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.provides.build: src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o
 
 
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o: src/CMakeFiles/bug.dir/flags.make
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o: /home/brio/robocomp/classes/qlog/qlog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o"
-	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o -c /home/brio/robocomp/classes/qlog/qlog.cpp
+src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o: src/CMakeFiles/bug.dir/flags.make
+src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o: /opt/robocomp/classes/sigwatch/sigwatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o"
+	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o -c /opt/robocomp/classes/sigwatch/sigwatch.cpp
 
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.i"
-	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brio/robocomp/classes/qlog/qlog.cpp > CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.i
+src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.i"
+	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/robocomp/classes/sigwatch/sigwatch.cpp > CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.i
 
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.s"
-	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brio/robocomp/classes/qlog/qlog.cpp -o CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.s
+src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.s"
+	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/robocomp/classes/sigwatch/sigwatch.cpp -o CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.s
 
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o.requires:
+src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.requires:
 
-.PHONY : src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o.requires
+.PHONY : src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
 
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o.provides: src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/bug.dir/build.make src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o.provides.build
-.PHONY : src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o.provides
+src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.provides: src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/bug.dir/build.make src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build
+.PHONY : src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.provides
 
-src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o.provides.build: src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o
+src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build: src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o
+
+
+src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o: src/CMakeFiles/bug.dir/flags.make
+src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o: /opt/robocomp/classes/qlog/qlog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o"
+	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o -c /opt/robocomp/classes/qlog/qlog.cpp
+
+src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.i"
+	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/robocomp/classes/qlog/qlog.cpp > CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.i
+
+src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.s"
+	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/robocomp/classes/qlog/qlog.cpp -o CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.s
+
+src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o.requires
+
+src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o.provides: src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/bug.dir/build.make src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o.provides.build
+.PHONY : src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o.provides
+
+src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o.provides.build: src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o
 
 
 src/CMakeFiles/bug.dir/main.cpp.o: src/CMakeFiles/bug.dir/flags.make
@@ -484,9 +484,9 @@ src/CMakeFiles/bug.dir/bug_autogen/mocs_compilation.cpp.o.provides.build: src/CM
 bug_OBJECTS = \
 "CMakeFiles/bug.dir/specificworker.cpp.o" \
 "CMakeFiles/bug.dir/specificmonitor.cpp.o" \
-"CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o" \
-"CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o" \
-"CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o" \
+"CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o" \
+"CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o" \
+"CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o" \
 "CMakeFiles/bug.dir/main.cpp.o" \
 "CMakeFiles/bug.dir/genericmonitor.cpp.o" \
 "CMakeFiles/bug.dir/commonbehaviorI.cpp.o" \
@@ -504,9 +504,9 @@ bug_EXTERNAL_OBJECTS =
 
 bin/bug: src/CMakeFiles/bug.dir/specificworker.cpp.o
 bin/bug: src/CMakeFiles/bug.dir/specificmonitor.cpp.o
-bin/bug: src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o
-bin/bug: src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o
-bin/bug: src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o
+bin/bug: src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o
+bin/bug: src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o
+bin/bug: src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o
 bin/bug: src/CMakeFiles/bug.dir/main.cpp.o
 bin/bug: src/CMakeFiles/bug.dir/genericmonitor.cpp.o
 bin/bug: src/CMakeFiles/bug.dir/commonbehaviorI.cpp.o
@@ -536,9 +536,9 @@ src/CMakeFiles/bug.dir/build: bin/bug
 
 src/CMakeFiles/bug.dir/requires: src/CMakeFiles/bug.dir/specificworker.cpp.o.requires
 src/CMakeFiles/bug.dir/requires: src/CMakeFiles/bug.dir/specificmonitor.cpp.o.requires
-src/CMakeFiles/bug.dir/requires: src/CMakeFiles/bug.dir/home/brio/robocomp/classes/rapplication/rapplication.cpp.o.requires
-src/CMakeFiles/bug.dir/requires: src/CMakeFiles/bug.dir/home/brio/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
-src/CMakeFiles/bug.dir/requires: src/CMakeFiles/bug.dir/home/brio/robocomp/classes/qlog/qlog.cpp.o.requires
+src/CMakeFiles/bug.dir/requires: src/CMakeFiles/bug.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.requires
+src/CMakeFiles/bug.dir/requires: src/CMakeFiles/bug.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
+src/CMakeFiles/bug.dir/requires: src/CMakeFiles/bug.dir/opt/robocomp/classes/qlog/qlog.cpp.o.requires
 src/CMakeFiles/bug.dir/requires: src/CMakeFiles/bug.dir/main.cpp.o.requires
 src/CMakeFiles/bug.dir/requires: src/CMakeFiles/bug.dir/genericmonitor.cpp.o.requires
 src/CMakeFiles/bug.dir/requires: src/CMakeFiles/bug.dir/commonbehaviorI.cpp.o.requires

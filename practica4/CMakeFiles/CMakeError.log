@@ -1,26 +1,26 @@
 Determining if the Q_WS_WIN exist failed with the following output:
-Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f0d13/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f0d13.dir/build.make CMakeFiles/cmTC_f0d13.dir/build
-make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f0d13.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_f0d13.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_f371a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f371a.dir/build.make CMakeFiles/cmTC_f371a.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f371a.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_f371a.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
    return ((int*)(&Q_WS_WIN))[argc];
                    ^~~~~~~~
-/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
    return ((int*)(&Q_WS_WIN))[argc];
                    ^~~~~~~~
                    Q_WS_X11
-CMakeFiles/cmTC_f0d13.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f0d13.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_f0d13.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_f0d13/fast' failed
-make: *** [cmTC_f0d13/fast] Error 2
+CMakeFiles/cmTC_f371a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f371a.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_f371a.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f371a/fast' failed
+make: *** [cmTC_f371a/fast] Error 2
 
-File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -36,28 +36,28 @@ int main(int argc, char** argv)
 }
 
 Determining if the Q_WS_QWS exist failed with the following output:
-Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a1e22/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a1e22.dir/build.make CMakeFiles/cmTC_a1e22.dir/build
-make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a1e22.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_a1e22.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_15871/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15871.dir/build.make CMakeFiles/cmTC_15871.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_15871.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_15871.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
    return ((int*)(&Q_WS_QWS))[argc];
                    ^~~~~~~~
-/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
    return ((int*)(&Q_WS_QWS))[argc];
                    ^~~~~~~~
                    Q_WS_X11
-CMakeFiles/cmTC_a1e22.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a1e22.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_a1e22.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_a1e22/fast' failed
-make: *** [cmTC_a1e22/fast] Error 2
+CMakeFiles/cmTC_15871.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_15871.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_15871.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_15871/fast' failed
+make: *** [cmTC_15871/fast] Error 2
 
-File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -73,28 +73,28 @@ int main(int argc, char** argv)
 }
 
 Determining if the Q_WS_MAC exist failed with the following output:
-Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b5221/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b5221.dir/build.make CMakeFiles/cmTC_b5221.dir/build
-make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b5221.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_b5221.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_b7816/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7816.dir/build.make CMakeFiles/cmTC_b7816.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b7816.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_b7816.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
    return ((int*)(&Q_WS_MAC))[argc];
                    ^~~~~~~~
-/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
    return ((int*)(&Q_WS_MAC))[argc];
                    ^~~~~~~~
                    Q_WS_X11
-CMakeFiles/cmTC_b5221.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b5221.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_b5221.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_b5221/fast' failed
-make: *** [cmTC_b5221/fast] Error 2
+CMakeFiles/cmTC_b7816.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b7816.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b7816.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b7816/fast' failed
+make: *** [cmTC_b7816/fast] Error 2
 
-File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -110,26 +110,26 @@ int main(int argc, char** argv)
 }
 
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_068e4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_068e4.dir/build.make CMakeFiles/cmTC_068e4.dir/build
-make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_068e4.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_068e4.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_068e4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_068e4.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_068e4.dir/CheckSymbolExists.c.o  -o cmTC_068e4 
-CMakeFiles/cmTC_068e4.dir/CheckSymbolExists.c.o: En la función `main':
+Run Build Command:"/usr/bin/make" "cmTC_bca9b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bca9b.dir/build.make CMakeFiles/cmTC_bca9b.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bca9b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bca9b.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bca9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bca9b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bca9b.dir/CheckSymbolExists.c.o  -o cmTC_bca9b 
+CMakeFiles/cmTC_bca9b.dir/CheckSymbolExists.c.o: En la función `main':
 CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_068e4.dir/build.make:97: recipe for target 'cmTC_068e4' failed
-make[1]: *** [cmTC_068e4] Error 1
-make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_068e4/fast' failed
-make: *** [cmTC_068e4/fast] Error 2
+CMakeFiles/cmTC_bca9b.dir/build.make:97: recipe for target 'cmTC_bca9b' failed
+make[1]: *** [cmTC_bca9b] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bca9b/fast' failed
+make: *** [cmTC_bca9b/fast] Error 2
 
-File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -145,33 +145,1029 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a1e5e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a1e5e.dir/build.make CMakeFiles/cmTC_a1e5e.dir/build
-make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a1e5e.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a1e5e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a1e5e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1e5e.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a1e5e.dir/CheckFunctionExists.c.o  -o cmTC_a1e5e -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_f2f5c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2f5c.dir/build.make CMakeFiles/cmTC_f2f5c.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2f5c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f2f5c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2f5c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2f5c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f2f5c.dir/CheckFunctionExists.c.o  -o cmTC_f2f5c -lpthreads 
 /usr/bin/ld: no se puede encontrar -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_a1e5e.dir/build.make:97: recipe for target 'cmTC_a1e5e' failed
-make[1]: *** [cmTC_a1e5e] Error 1
-make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_a1e5e/fast' failed
-make: *** [cmTC_a1e5e/fast] Error 2
+CMakeFiles/cmTC_f2f5c.dir/build.make:97: recipe for target 'cmTC_f2f5c' failed
+make[1]: *** [cmTC_f2f5c] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f2f5c/fast' failed
+make: *** [cmTC_f2f5c/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f9d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f9d2.dir/build.make CMakeFiles/cmTC_5f9d2.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5f9d2.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_5f9d2.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_5f9d2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5f9d2.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_5f9d2.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5f9d2/fast' failed
+make: *** [cmTC_5f9d2/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad08c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad08c.dir/build.make CMakeFiles/cmTC_ad08c.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ad08c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_ad08c.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_ad08c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ad08c.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ad08c.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ad08c/fast' failed
+make: *** [cmTC_ad08c/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1116b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1116b.dir/build.make CMakeFiles/cmTC_1116b.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1116b.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_1116b.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_1116b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1116b.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_1116b.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1116b/fast' failed
+make: *** [cmTC_1116b/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c88f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c88f.dir/build.make CMakeFiles/cmTC_1c88f.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c88f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1c88f.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1c88f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c88f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1c88f.dir/CheckSymbolExists.c.o  -o cmTC_1c88f 
+CMakeFiles/cmTC_1c88f.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1c88f.dir/build.make:97: recipe for target 'cmTC_1c88f' failed
+make[1]: *** [cmTC_1c88f] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1c88f/fast' failed
+make: *** [cmTC_1c88f/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61114/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61114.dir/build.make CMakeFiles/cmTC_61114.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61114.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_61114.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_61114
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61114.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_61114.dir/CheckFunctionExists.c.o  -o cmTC_61114 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_61114.dir/build.make:97: recipe for target 'cmTC_61114' failed
+make[1]: *** [cmTC_61114] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_61114/fast' failed
+make: *** [cmTC_61114/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_021be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_021be.dir/build.make CMakeFiles/cmTC_021be.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_021be.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_021be.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_021be.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_021be.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_021be.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_021be/fast' failed
+make: *** [cmTC_021be/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2d6b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2d6b.dir/build.make CMakeFiles/cmTC_b2d6b.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2d6b.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_b2d6b.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_b2d6b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b2d6b.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b2d6b.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b2d6b/fast' failed
+make: *** [cmTC_b2d6b/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22b88/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22b88.dir/build.make CMakeFiles/cmTC_22b88.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_22b88.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_22b88.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_22b88.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_22b88.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_22b88.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_22b88/fast' failed
+make: *** [cmTC_22b88/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa653/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa653.dir/build.make CMakeFiles/cmTC_aa653.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa653.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_aa653.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_aa653
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa653.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_aa653.dir/CheckSymbolExists.c.o  -o cmTC_aa653 
+CMakeFiles/cmTC_aa653.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_aa653.dir/build.make:97: recipe for target 'cmTC_aa653' failed
+make[1]: *** [cmTC_aa653] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_aa653/fast' failed
+make: *** [cmTC_aa653/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0886f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0886f.dir/build.make CMakeFiles/cmTC_0886f.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0886f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0886f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0886f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0886f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0886f.dir/CheckFunctionExists.c.o  -o cmTC_0886f -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0886f.dir/build.make:97: recipe for target 'cmTC_0886f' failed
+make[1]: *** [cmTC_0886f] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0886f/fast' failed
+make: *** [cmTC_0886f/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bdc9f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bdc9f.dir/build.make CMakeFiles/cmTC_bdc9f.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bdc9f.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_bdc9f.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_bdc9f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bdc9f.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_bdc9f.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bdc9f/fast' failed
+make: *** [cmTC_bdc9f/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_206ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_206ec.dir/build.make CMakeFiles/cmTC_206ec.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_206ec.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_206ec.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_206ec.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_206ec.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_206ec.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_206ec/fast' failed
+make: *** [cmTC_206ec/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7c14/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7c14.dir/build.make CMakeFiles/cmTC_a7c14.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7c14.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_a7c14.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_a7c14.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a7c14.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a7c14.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a7c14/fast' failed
+make: *** [cmTC_a7c14/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2310b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2310b.dir/build.make CMakeFiles/cmTC_2310b.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2310b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2310b.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2310b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2310b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2310b.dir/CheckSymbolExists.c.o  -o cmTC_2310b 
+CMakeFiles/cmTC_2310b.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2310b.dir/build.make:97: recipe for target 'cmTC_2310b' failed
+make[1]: *** [cmTC_2310b] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2310b/fast' failed
+make: *** [cmTC_2310b/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f329/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f329.dir/build.make CMakeFiles/cmTC_4f329.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f329.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4f329.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4f329
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f329.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4f329.dir/CheckFunctionExists.c.o  -o cmTC_4f329 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4f329.dir/build.make:97: recipe for target 'cmTC_4f329' failed
+make[1]: *** [cmTC_4f329] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4f329/fast' failed
+make: *** [cmTC_4f329/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aadad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aadad.dir/build.make CMakeFiles/cmTC_aadad.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aadad.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_aadad.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_aadad.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_aadad.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_aadad.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_aadad/fast' failed
+make: *** [cmTC_aadad/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_499ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_499ff.dir/build.make CMakeFiles/cmTC_499ff.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_499ff.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_499ff.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_499ff.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_499ff.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_499ff.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_499ff/fast' failed
+make: *** [cmTC_499ff/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_821a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_821a3.dir/build.make CMakeFiles/cmTC_821a3.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_821a3.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_821a3.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_821a3.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_821a3.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_821a3.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_821a3/fast' failed
+make: *** [cmTC_821a3/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45c2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45c2d.dir/build.make CMakeFiles/cmTC_45c2d.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45c2d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_45c2d.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_45c2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45c2d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_45c2d.dir/CheckSymbolExists.c.o  -o cmTC_45c2d 
+CMakeFiles/cmTC_45c2d.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_45c2d.dir/build.make:97: recipe for target 'cmTC_45c2d' failed
+make[1]: *** [cmTC_45c2d] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_45c2d/fast' failed
+make: *** [cmTC_45c2d/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae3b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae3b4.dir/build.make CMakeFiles/cmTC_ae3b4.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae3b4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ae3b4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ae3b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae3b4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ae3b4.dir/CheckFunctionExists.c.o  -o cmTC_ae3b4 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ae3b4.dir/build.make:97: recipe for target 'cmTC_ae3b4' failed
+make[1]: *** [cmTC_ae3b4] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ae3b4/fast' failed
+make: *** [cmTC_ae3b4/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8cd2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8cd2.dir/build.make CMakeFiles/cmTC_e8cd2.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e8cd2.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_e8cd2.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_e8cd2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e8cd2.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e8cd2.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e8cd2/fast' failed
+make: *** [cmTC_e8cd2/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_603ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_603ac.dir/build.make CMakeFiles/cmTC_603ac.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_603ac.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_603ac.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_603ac.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_603ac.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_603ac.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_603ac/fast' failed
+make: *** [cmTC_603ac/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89ca5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89ca5.dir/build.make CMakeFiles/cmTC_89ca5.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89ca5.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_89ca5.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_89ca5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_89ca5.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_89ca5.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_89ca5/fast' failed
+make: *** [cmTC_89ca5/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d34a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d34a4.dir/build.make CMakeFiles/cmTC_d34a4.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d34a4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d34a4.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d34a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d34a4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d34a4.dir/CheckSymbolExists.c.o  -o cmTC_d34a4 
+CMakeFiles/cmTC_d34a4.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d34a4.dir/build.make:97: recipe for target 'cmTC_d34a4' failed
+make[1]: *** [cmTC_d34a4] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d34a4/fast' failed
+make: *** [cmTC_d34a4/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7f72/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7f72.dir/build.make CMakeFiles/cmTC_f7f72.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7f72.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f7f72.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f7f72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7f72.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f7f72.dir/CheckFunctionExists.c.o  -o cmTC_f7f72 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f7f72.dir/build.make:97: recipe for target 'cmTC_f7f72' failed
+make[1]: *** [cmTC_f7f72] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f7f72/fast' failed
+make: *** [cmTC_f7f72/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b47ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b47ff.dir/build.make CMakeFiles/cmTC_b47ff.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b47ff.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_b47ff.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_b47ff.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b47ff.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b47ff.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b47ff/fast' failed
+make: *** [cmTC_b47ff/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cff43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cff43.dir/build.make CMakeFiles/cmTC_cff43.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cff43.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_cff43.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_cff43.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cff43.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_cff43.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cff43/fast' failed
+make: *** [cmTC_cff43/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8e18/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8e18.dir/build.make CMakeFiles/cmTC_a8e18.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a8e18.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_a8e18.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_a8e18.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a8e18.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a8e18.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a8e18/fast' failed
+make: *** [cmTC_a8e18/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ccffc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccffc.dir/build.make CMakeFiles/cmTC_ccffc.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ccffc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ccffc.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ccffc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccffc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ccffc.dir/CheckSymbolExists.c.o  -o cmTC_ccffc 
+CMakeFiles/cmTC_ccffc.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ccffc.dir/build.make:97: recipe for target 'cmTC_ccffc' failed
+make[1]: *** [cmTC_ccffc] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ccffc/fast' failed
+make: *** [cmTC_ccffc/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b80e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b80e0.dir/build.make CMakeFiles/cmTC_b80e0.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b80e0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b80e0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b80e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b80e0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b80e0.dir/CheckFunctionExists.c.o  -o cmTC_b80e0 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b80e0.dir/build.make:97: recipe for target 'cmTC_b80e0' failed
+make[1]: *** [cmTC_b80e0] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica_4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b80e0/fast' failed
+make: *** [cmTC_b80e0/fast] Error 2
 
 
 Determining if the Q_WS_WIN exist failed with the following output:
 Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0d361/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0d361.dir/build.make CMakeFiles/cmTC_0d361.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_56d16/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56d16.dir/build.make CMakeFiles/cmTC_56d16.dir/build
 make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0d361.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_0d361.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTC_56d16.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_56d16.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
 /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
    return ((int*)(&Q_WS_WIN))[argc];
@@ -180,11 +1176,11 @@ Building CXX object CMakeFiles/cmTC_0d361.dir/CheckSymbolExists.cxx.o
    return ((int*)(&Q_WS_WIN))[argc];
                    ^~~~~~~~
                    Q_WS_X11
-CMakeFiles/cmTC_0d361.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0d361.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_0d361.dir/CheckSymbolExists.cxx.o] Error 1
+CMakeFiles/cmTC_56d16.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_56d16.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_56d16.dir/CheckSymbolExists.cxx.o] Error 1
 make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_0d361/fast' failed
-make: *** [cmTC_0d361/fast] Error 2
+Makefile:126: recipe for target 'cmTC_56d16/fast' failed
+make: *** [cmTC_56d16/fast] Error 2
 
 File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
@@ -204,11 +1200,11 @@ int main(int argc, char** argv)
 Determining if the Q_WS_QWS exist failed with the following output:
 Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_224b0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_224b0.dir/build.make CMakeFiles/cmTC_224b0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e2402/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2402.dir/build.make CMakeFiles/cmTC_e2402.dir/build
 make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_224b0.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_224b0.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTC_e2402.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_e2402.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
 /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
    return ((int*)(&Q_WS_QWS))[argc];
@@ -217,11 +1213,11 @@ Building CXX object CMakeFiles/cmTC_224b0.dir/CheckSymbolExists.cxx.o
    return ((int*)(&Q_WS_QWS))[argc];
                    ^~~~~~~~
                    Q_WS_X11
-CMakeFiles/cmTC_224b0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_224b0.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_224b0.dir/CheckSymbolExists.cxx.o] Error 1
+CMakeFiles/cmTC_e2402.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e2402.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e2402.dir/CheckSymbolExists.cxx.o] Error 1
 make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_224b0/fast' failed
-make: *** [cmTC_224b0/fast] Error 2
+Makefile:126: recipe for target 'cmTC_e2402/fast' failed
+make: *** [cmTC_e2402/fast] Error 2
 
 File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
@@ -241,11 +1237,11 @@ int main(int argc, char** argv)
 Determining if the Q_WS_MAC exist failed with the following output:
 Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_08b42/fast"
-/usr/bin/make -f CMakeFiles/cmTC_08b42.dir/build.make CMakeFiles/cmTC_08b42.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_239a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_239a6.dir/build.make CMakeFiles/cmTC_239a6.dir/build
 make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_08b42.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_08b42.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTC_239a6.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_239a6.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
 /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
    return ((int*)(&Q_WS_MAC))[argc];
@@ -254,11 +1250,11 @@ Building CXX object CMakeFiles/cmTC_08b42.dir/CheckSymbolExists.cxx.o
    return ((int*)(&Q_WS_MAC))[argc];
                    ^~~~~~~~
                    Q_WS_X11
-CMakeFiles/cmTC_08b42.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_08b42.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_08b42.dir/CheckSymbolExists.cxx.o] Error 1
+CMakeFiles/cmTC_239a6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_239a6.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_239a6.dir/CheckSymbolExists.cxx.o] Error 1
 make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_08b42/fast' failed
-make: *** [cmTC_08b42/fast] Error 2
+Makefile:126: recipe for target 'cmTC_239a6/fast' failed
+make: *** [cmTC_239a6/fast] Error 2
 
 File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
@@ -278,22 +1274,22 @@ int main(int argc, char** argv)
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2cbdb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2cbdb.dir/build.make CMakeFiles/cmTC_2cbdb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_787da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_787da.dir/build.make CMakeFiles/cmTC_787da.dir/build
 make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2cbdb.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_2cbdb.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_2cbdb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cbdb.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2cbdb.dir/CheckSymbolExists.c.o  -o cmTC_2cbdb 
-CMakeFiles/cmTC_2cbdb.dir/CheckSymbolExists.c.o: En la función `main':
+Building C object CMakeFiles/cmTC_787da.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_787da.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_787da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_787da.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_787da.dir/CheckSymbolExists.c.o  -o cmTC_787da 
+CMakeFiles/cmTC_787da.dir/CheckSymbolExists.c.o: En la función `main':
 CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_2cbdb.dir/build.make:97: recipe for target 'cmTC_2cbdb' failed
-make[1]: *** [cmTC_2cbdb] Error 1
+CMakeFiles/cmTC_787da.dir/build.make:97: recipe for target 'cmTC_787da' failed
+make[1]: *** [cmTC_787da] Error 1
 make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_2cbdb/fast' failed
-make: *** [cmTC_2cbdb/fast] Error 2
+Makefile:126: recipe for target 'cmTC_787da/fast' failed
+make: *** [cmTC_787da/fast] Error 2
 
 File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -313,31 +1309,31 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_863a3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_863a3.dir/build.make CMakeFiles/cmTC_863a3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3d6cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d6cf.dir/build.make CMakeFiles/cmTC_3d6cf.dir/build
 make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_863a3.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_863a3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_863a3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_863a3.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_863a3.dir/CheckFunctionExists.c.o  -o cmTC_863a3 -lpthreads 
+Building C object CMakeFiles/cmTC_3d6cf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3d6cf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3d6cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d6cf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3d6cf.dir/CheckFunctionExists.c.o  -o cmTC_3d6cf -lpthreads 
 /usr/bin/ld: no se puede encontrar -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_863a3.dir/build.make:97: recipe for target 'cmTC_863a3' failed
-make[1]: *** [cmTC_863a3] Error 1
+CMakeFiles/cmTC_3d6cf.dir/build.make:97: recipe for target 'cmTC_3d6cf' failed
+make[1]: *** [cmTC_3d6cf] Error 1
 make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_863a3/fast' failed
-make: *** [cmTC_863a3/fast] Error 2
+Makefile:126: recipe for target 'cmTC_3d6cf/fast' failed
+make: *** [cmTC_3d6cf/fast] Error 2
 
 
 Determining if the Q_WS_WIN exist failed with the following output:
 Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8f35a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8f35a.dir/build.make CMakeFiles/cmTC_8f35a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e8f1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8f1b.dir/build.make CMakeFiles/cmTC_e8f1b.dir/build
 make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8f35a.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_8f35a.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTC_e8f1b.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_e8f1b.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
 /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
    return ((int*)(&Q_WS_WIN))[argc];
@@ -346,11 +1342,11 @@ Building CXX object CMakeFiles/cmTC_8f35a.dir/CheckSymbolExists.cxx.o
    return ((int*)(&Q_WS_WIN))[argc];
                    ^~~~~~~~
                    Q_WS_X11
-CMakeFiles/cmTC_8f35a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8f35a.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_8f35a.dir/CheckSymbolExists.cxx.o] Error 1
+CMakeFiles/cmTC_e8f1b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e8f1b.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e8f1b.dir/CheckSymbolExists.cxx.o] Error 1
 make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_8f35a/fast' failed
-make: *** [cmTC_8f35a/fast] Error 2
+Makefile:126: recipe for target 'cmTC_e8f1b/fast' failed
+make: *** [cmTC_e8f1b/fast] Error 2
 
 File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
@@ -370,11 +1366,11 @@ int main(int argc, char** argv)
 Determining if the Q_WS_QWS exist failed with the following output:
 Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1ecd0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1ecd0.dir/build.make CMakeFiles/cmTC_1ecd0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7d459/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d459.dir/build.make CMakeFiles/cmTC_7d459.dir/build
 make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1ecd0.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_1ecd0.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTC_7d459.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_7d459.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
 /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
    return ((int*)(&Q_WS_QWS))[argc];
@@ -383,11 +1379,11 @@ Building CXX object CMakeFiles/cmTC_1ecd0.dir/CheckSymbolExists.cxx.o
    return ((int*)(&Q_WS_QWS))[argc];
                    ^~~~~~~~
                    Q_WS_X11
-CMakeFiles/cmTC_1ecd0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1ecd0.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_1ecd0.dir/CheckSymbolExists.cxx.o] Error 1
+CMakeFiles/cmTC_7d459.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7d459.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7d459.dir/CheckSymbolExists.cxx.o] Error 1
 make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_1ecd0/fast' failed
-make: *** [cmTC_1ecd0/fast] Error 2
+Makefile:126: recipe for target 'cmTC_7d459/fast' failed
+make: *** [cmTC_7d459/fast] Error 2
 
 File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
@@ -407,11 +1403,11 @@ int main(int argc, char** argv)
 Determining if the Q_WS_MAC exist failed with the following output:
 Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6d076/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6d076.dir/build.make CMakeFiles/cmTC_6d076.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b7f6c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7f6c.dir/build.make CMakeFiles/cmTC_b7f6c.dir/build
 make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6d076.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_6d076.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTC_b7f6c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_b7f6c.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
 /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
    return ((int*)(&Q_WS_MAC))[argc];
@@ -420,11 +1416,11 @@ Building CXX object CMakeFiles/cmTC_6d076.dir/CheckSymbolExists.cxx.o
    return ((int*)(&Q_WS_MAC))[argc];
                    ^~~~~~~~
                    Q_WS_X11
-CMakeFiles/cmTC_6d076.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6d076.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_6d076.dir/CheckSymbolExists.cxx.o] Error 1
+CMakeFiles/cmTC_b7f6c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b7f6c.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b7f6c.dir/CheckSymbolExists.cxx.o] Error 1
 make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_6d076/fast' failed
-make: *** [cmTC_6d076/fast] Error 2
+Makefile:126: recipe for target 'cmTC_b7f6c/fast' failed
+make: *** [cmTC_b7f6c/fast] Error 2
 
 File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
@@ -444,22 +1440,22 @@ int main(int argc, char** argv)
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6bf0a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6bf0a.dir/build.make CMakeFiles/cmTC_6bf0a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_34103/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34103.dir/build.make CMakeFiles/cmTC_34103.dir/build
 make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6bf0a.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_6bf0a.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_6bf0a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bf0a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6bf0a.dir/CheckSymbolExists.c.o  -o cmTC_6bf0a 
-CMakeFiles/cmTC_6bf0a.dir/CheckSymbolExists.c.o: En la función `main':
+Building C object CMakeFiles/cmTC_34103.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_34103.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_34103
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34103.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_34103.dir/CheckSymbolExists.c.o  -o cmTC_34103 
+CMakeFiles/cmTC_34103.dir/CheckSymbolExists.c.o: En la función `main':
 CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_6bf0a.dir/build.make:97: recipe for target 'cmTC_6bf0a' failed
-make[1]: *** [cmTC_6bf0a] Error 1
+CMakeFiles/cmTC_34103.dir/build.make:97: recipe for target 'cmTC_34103' failed
+make[1]: *** [cmTC_34103] Error 1
 make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_6bf0a/fast' failed
-make: *** [cmTC_6bf0a/fast] Error 2
+Makefile:126: recipe for target 'cmTC_34103/fast' failed
+make: *** [cmTC_34103/fast] Error 2
 
 File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -479,20 +1475,850 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1b7bf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1b7bf.dir/build.make CMakeFiles/cmTC_1b7bf.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e4bdc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4bdc.dir/build.make CMakeFiles/cmTC_e4bdc.dir/build
 make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1b7bf.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1b7bf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1b7bf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b7bf.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1b7bf.dir/CheckFunctionExists.c.o  -o cmTC_1b7bf -lpthreads 
+Building C object CMakeFiles/cmTC_e4bdc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e4bdc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e4bdc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4bdc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e4bdc.dir/CheckFunctionExists.c.o  -o cmTC_e4bdc -lpthreads 
 /usr/bin/ld: no se puede encontrar -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_1b7bf.dir/build.make:97: recipe for target 'cmTC_1b7bf' failed
-make[1]: *** [cmTC_1b7bf] Error 1
+CMakeFiles/cmTC_e4bdc.dir/build.make:97: recipe for target 'cmTC_e4bdc' failed
+make[1]: *** [cmTC_e4bdc] Error 1
 make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_1b7bf/fast' failed
-make: *** [cmTC_1b7bf/fast] Error 2
+Makefile:126: recipe for target 'cmTC_e4bdc/fast' failed
+make: *** [cmTC_e4bdc/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05ce9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05ce9.dir/build.make CMakeFiles/cmTC_05ce9.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05ce9.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_05ce9.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_05ce9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_05ce9.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_05ce9.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_05ce9/fast' failed
+make: *** [cmTC_05ce9/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1e77/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1e77.dir/build.make CMakeFiles/cmTC_a1e77.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a1e77.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_a1e77.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_a1e77.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a1e77.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a1e77.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a1e77/fast' failed
+make: *** [cmTC_a1e77/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87777/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87777.dir/build.make CMakeFiles/cmTC_87777.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_87777.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_87777.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_87777.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_87777.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_87777.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_87777/fast' failed
+make: *** [cmTC_87777/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_717ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_717ba.dir/build.make CMakeFiles/cmTC_717ba.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_717ba.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_717ba.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_717ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_717ba.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_717ba.dir/CheckSymbolExists.c.o  -o cmTC_717ba 
+CMakeFiles/cmTC_717ba.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_717ba.dir/build.make:97: recipe for target 'cmTC_717ba' failed
+make[1]: *** [cmTC_717ba] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_717ba/fast' failed
+make: *** [cmTC_717ba/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad076/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad076.dir/build.make CMakeFiles/cmTC_ad076.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad076.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ad076.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ad076
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad076.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ad076.dir/CheckFunctionExists.c.o  -o cmTC_ad076 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ad076.dir/build.make:97: recipe for target 'cmTC_ad076' failed
+make[1]: *** [cmTC_ad076] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ad076/fast' failed
+make: *** [cmTC_ad076/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef605/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef605.dir/build.make CMakeFiles/cmTC_ef605.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ef605.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_ef605.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_ef605.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ef605.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ef605.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ef605/fast' failed
+make: *** [cmTC_ef605/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6232/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6232.dir/build.make CMakeFiles/cmTC_d6232.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6232.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_d6232.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_d6232.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d6232.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d6232.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d6232/fast' failed
+make: *** [cmTC_d6232/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2db5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2db5.dir/build.make CMakeFiles/cmTC_d2db5.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d2db5.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_d2db5.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_d2db5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d2db5.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d2db5.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d2db5/fast' failed
+make: *** [cmTC_d2db5/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d3d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d3d7.dir/build.make CMakeFiles/cmTC_5d3d7.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d3d7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5d3d7.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5d3d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d3d7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5d3d7.dir/CheckSymbolExists.c.o  -o cmTC_5d3d7 
+CMakeFiles/cmTC_5d3d7.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5d3d7.dir/build.make:97: recipe for target 'cmTC_5d3d7' failed
+make[1]: *** [cmTC_5d3d7] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5d3d7/fast' failed
+make: *** [cmTC_5d3d7/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a10c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a10c5.dir/build.make CMakeFiles/cmTC_a10c5.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a10c5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a10c5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a10c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a10c5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a10c5.dir/CheckFunctionExists.c.o  -o cmTC_a10c5 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a10c5.dir/build.make:97: recipe for target 'cmTC_a10c5' failed
+make[1]: *** [cmTC_a10c5] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a10c5/fast' failed
+make: *** [cmTC_a10c5/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2556/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2556.dir/build.make CMakeFiles/cmTC_b2556.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2556.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_b2556.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_b2556.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b2556.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b2556.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b2556/fast' failed
+make: *** [cmTC_b2556/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8acb7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8acb7.dir/build.make CMakeFiles/cmTC_8acb7.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8acb7.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_8acb7.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_8acb7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8acb7.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_8acb7.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8acb7/fast' failed
+make: *** [cmTC_8acb7/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c88aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c88aa.dir/build.make CMakeFiles/cmTC_c88aa.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c88aa.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_c88aa.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_c88aa.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c88aa.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c88aa.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c88aa/fast' failed
+make: *** [cmTC_c88aa/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6fbb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6fbb.dir/build.make CMakeFiles/cmTC_d6fbb.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6fbb.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d6fbb.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d6fbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6fbb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d6fbb.dir/CheckSymbolExists.c.o  -o cmTC_d6fbb 
+CMakeFiles/cmTC_d6fbb.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d6fbb.dir/build.make:97: recipe for target 'cmTC_d6fbb' failed
+make[1]: *** [cmTC_d6fbb] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d6fbb/fast' failed
+make: *** [cmTC_d6fbb/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3fa60/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3fa60.dir/build.make CMakeFiles/cmTC_3fa60.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fa60.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3fa60.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3fa60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fa60.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3fa60.dir/CheckFunctionExists.c.o  -o cmTC_3fa60 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3fa60.dir/build.make:97: recipe for target 'cmTC_3fa60' failed
+make[1]: *** [cmTC_3fa60] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3fa60/fast' failed
+make: *** [cmTC_3fa60/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47aa1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47aa1.dir/build.make CMakeFiles/cmTC_47aa1.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47aa1.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_47aa1.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_47aa1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_47aa1.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_47aa1.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_47aa1/fast' failed
+make: *** [cmTC_47aa1/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d116/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d116.dir/build.make CMakeFiles/cmTC_9d116.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d116.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_9d116.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_9d116.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9d116.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9d116.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9d116/fast' failed
+make: *** [cmTC_9d116/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24b55/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24b55.dir/build.make CMakeFiles/cmTC_24b55.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_24b55.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_24b55.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_24b55.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_24b55.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_24b55.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_24b55/fast' failed
+make: *** [cmTC_24b55/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_658bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_658bb.dir/build.make CMakeFiles/cmTC_658bb.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_658bb.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_658bb.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_658bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_658bb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_658bb.dir/CheckSymbolExists.c.o  -o cmTC_658bb 
+CMakeFiles/cmTC_658bb.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_658bb.dir/build.make:97: recipe for target 'cmTC_658bb' failed
+make[1]: *** [cmTC_658bb] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_658bb/fast' failed
+make: *** [cmTC_658bb/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fea22/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fea22.dir/build.make CMakeFiles/cmTC_fea22.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fea22.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fea22.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fea22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fea22.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_fea22.dir/CheckFunctionExists.c.o  -o cmTC_fea22 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fea22.dir/build.make:97: recipe for target 'cmTC_fea22' failed
+make[1]: *** [cmTC_fea22] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fea22/fast' failed
+make: *** [cmTC_fea22/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63a7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63a7f.dir/build.make CMakeFiles/cmTC_63a7f.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_63a7f.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_63a7f.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_63a7f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_63a7f.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_63a7f.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_63a7f/fast' failed
+make: *** [cmTC_63a7f/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ab93/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ab93.dir/build.make CMakeFiles/cmTC_1ab93.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1ab93.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_1ab93.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_1ab93.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1ab93.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_1ab93.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1ab93/fast' failed
+make: *** [cmTC_1ab93/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5150f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5150f.dir/build.make CMakeFiles/cmTC_5150f.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5150f.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_5150f.dir/CheckSymbolExists.cxx.o -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_5150f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5150f.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_5150f.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5150f/fast' failed
+make: *** [cmTC_5150f/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b88e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b88e3.dir/build.make CMakeFiles/cmTC_b88e3.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b88e3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b88e3.dir/CheckSymbolExists.c.o   -c /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b88e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b88e3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b88e3.dir/CheckSymbolExists.c.o  -o cmTC_b88e3 
+CMakeFiles/cmTC_b88e3.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b88e3.dir/build.make:97: recipe for target 'cmTC_b88e3' failed
+make[1]: *** [cmTC_b88e3] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b88e3/fast' failed
+make: *** [cmTC_b88e3/fast] Error 2
+
+File /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68fd6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68fd6.dir/build.make CMakeFiles/cmTC_68fd6.dir/build
+make[1]: se entra en el directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68fd6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_68fd6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_68fd6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68fd6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_68fd6.dir/CheckFunctionExists.c.o  -o cmTC_68fd6 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_68fd6.dir/build.make:97: recipe for target 'cmTC_68fd6' failed
+make[1]: *** [cmTC_68fd6] Error 1
+make[1]: se sale del directorio '/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_68fd6/fast' failed
+make: *** [cmTC_68fd6/fast] Error 2
 
 

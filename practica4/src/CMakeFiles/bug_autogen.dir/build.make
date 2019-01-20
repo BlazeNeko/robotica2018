@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/brio/robocomp/components/robotica2018/practica4
 include src/CMakeFiles/bug_autogen.dir/progress.make
 
 src/CMakeFiles/bug_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target bug"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/brio/robocomp/components/robotica2018/practica4/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target bug"
 	cd /home/brio/robocomp/components/robotica2018/practica4/src && /usr/bin/cmake -E cmake_autogen /home/brio/robocomp/components/robotica2018/practica4/src/CMakeFiles/bug_autogen.dir ""
 
 bug_autogen: src/CMakeFiles/bug_autogen

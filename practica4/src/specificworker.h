@@ -31,23 +31,18 @@
 #include <innermodel/innermodel.h>
 //
 struct target {
-    Pick pick[10];
-    int currentSize=0;
-    int index=0;
+    Pick pick;
     bool status = false;
 
     void setPick(Pick newPick) {
         status = true;
-        if(currentSize < 10) {
-            pick[currentSize] = newPick;
-            currentSize++;
-        }
+            pick = newPick;
     }
     float getX() {
-        return pick[index].x;
+        return pick.x;
     }
     float getZ() {
-        return pick[index].z;
+        return pick.z;
     }
     void toogleStatus() {
         status = !status;
@@ -64,7 +59,8 @@ struct line {
     float B;
     float C;
 };
-
+//
+enum Way {LEFT, RIGHT};
 
 class SpecificWorker : public GenericWorker
 {
@@ -74,16 +70,19 @@ public:
     ~SpecificWorker();
     bool setParams(RoboCompCommonBehavior::ParameterList params);
     //
-    void bug();
+    void bug(RoboCompLaser::TLaserData ldata);
     //
-    bool obstacle();
-    //
-    bool targetAtSight();
+    bool targetAtSight(RoboCompLaser::TLaserData ldata);
     //
     void goTarget();
     //
     void setPick(const Pick &myPick);
-
+    //
+    bool obstacle(RoboCompLaser::TLaserData ldata, int start, int end);
+	//
+	void selectDirectionBug(RoboCompLaser::TLaserData ldata);
+	//
+	
 public slots:
     void compute();
 
@@ -91,6 +90,10 @@ private:
     //
     int threshold;
     //
+    int angle[5] = {10,30,50,70,90};
+	//
+	Way turnWay;	
+	//
     State stateWork;
     //
     InnerModel *innerModel;
@@ -98,6 +101,8 @@ private:
     target targ;
     //
     line linear;
+	//
+	
 
 };
 
