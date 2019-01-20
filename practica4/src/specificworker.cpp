@@ -43,6 +43,13 @@ SpecificWorker::~SpecificWorker()
 bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 {
     timer.start(Period);
+    try
+            {
+      RoboCompCommonBehavior::Parameter par = params.at("InnerModelPath");
+      std::string innermodel_path = par.value;
+                    innerModel = new InnerModel(innermodel_path);
+     }
+     catch(std::exception e) { qFatal("Error reading config params"); }
     return true;
 }
 
@@ -64,13 +71,21 @@ void SpecificWorker::compute()
         if ( targ.getStatus() ) {
             //P1 = punto origen del robot
             //P2 = target.pick[index]
-            //Ecuacion general de la recta: Ax + By + C = 0
-            linear.A = -targ.getX() - bState.x;
+//            linear.A= line2p.P1Z -line2p.P2Z;
+  //          linear.B= line2p.P2X -line2p.P1X;
+            linear.A = bState.z -targ.getZ();
             //A = -P2x - P1x
             //B = P2z - P1z
-            linear.B = targ.getZ() - bState.z;
-            linear.C = -(linear.A * bState.x + linear.B * bState.z);
+            linear.B = targ.getX() - bState.x;
+            linear.C= (bState.x * (linear.A*-1)) - (bState.z * linear.B);
+
+
+            //Ecuacion general de la recta: Ax + By + C = 0
+            //linear.C = (bState.x *targ.getZ() - targ.getX() * bState.z);
+            //linear.C = -(linear.A * bState.x + linear.B * bState.z);
+            std::cout<<"bstateX: "<<bState.x<<" bState.z: "<<bState.z<<std::endl;
             std::cout<<"A: "<<linear.A<<" B: "<<linear.B<<" C: "<<linear.C<<std::endl;
+            std::cout<<(linear.A * bState.x + linear.B * bState.z + linear.C)<<std::endl;
             //La recta la usamos para que el robot termine de rodear al obstáculo cuando se encuentra de nuevo en la recta entre el origen y el destino
             //calcular aqui el origen del robot y los valores A, B y C para el cálculo de la recta, que se usa enla función bug().
             stateWork = State::GOTO;
@@ -115,6 +130,8 @@ void SpecificWorker::goTarget()
 			differentialrobot_proxy->setSpeedBase(0, 0);
 			stateWork = State::BUG;
             selectDirectionBug(ldata);
+            lastPosition[0] = bState.x;
+            lastPosition[1] = bState.z;
             std::cout<<"BUG"<<std::endl;
 			return;
         }
@@ -133,51 +150,22 @@ void SpecificWorker::goTarget()
 
 }
 
-/*void SpecificWorker::bug()
-{
-    RoboCompGenericBase::TBaseState bState;
-    differentialrobot_proxy->getBaseState(bState);
-    RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData();
-    std::sort( ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) {
-        return     a.dist < b.dist;
-    }) ;
-    //Usar la recta calculada previamente (las variables A, B y C)
-    //la recta permite al robot dejar de rodear al obstáculo cuando el robot se encuentra de nuevo en ella. (if( A * posRobot.x + B * posRobot.z + C == 0), terminar el bug).
-    //En vez de hacer que el robot esté exactamente en la recta ( ecuacion == 0), le damos un margen de error tanto positivo como negativo ( < 1 y > -1 )
-    if((linear.A * bState.x + linear.B * bState.z + linear.C) < 1 && (linear.A * bState.x + linear.B * bState.z + linear.C > -1))
-    {
-        stateWork = State::GOTO;
-        return;
-    }
-	if(ldata.front().angle < 0) 
-		differentialrobot_proxy->setSpeedBase(0, M_PI/5);
-	else
-		differentialrobot_proxy->setSpeedBase(0, -M_PI/5);
-}*/
-
 void SpecificWorker::bug (RoboCompLaser::TLaserData ldata){
 	RoboCompGenericBase::TBaseState bState;
     differentialrobot_proxy->getBaseState(bState);
-    linear.A = -targ.getX() - bState.x;
-    //A = -P2x - P1x
-    //B = P2z - P1z
-    linear.B = targ.getZ() - bState.z;
-    linear.C = -(linear.A * bState.x + linear.B * bState.z);
 
-    std::sort( ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b) {
-        return     a.dist < b.dist;
-    }) ;
-
-    bool linearState = (linear.A * bState.x + linear.B * bState.z + linear.C) < 1 && (linear.A * bState.x + linear.B * bState.z + linear.C > -1);
-    if(linearState && !obstacle(ldata, angle[0], angle[1]) ||linearState && !obstacle(ldata, angle[3], angle[4]) )
+    bool inL = inLine();
+    bool samePosition = (lastPosition[0]== (int)bState.x && lastPosition[1] == (int)bState.z);
+    qDebug()<<"Last X: " << lastPosition[0] <<" Last Z: " << lastPosition[1];
+    qDebug()<<"Actual X: " << (int)bState.x <<" Actual Z: " << (int)bState.z;
+    if(inL && !obstacle(ldata,angle[1],angle[3]) && !samePosition)
     {
          std::cout<<"In line with target "<<std::endl;
         stateWork = State::GOTO;
         return;
     }
-
     float rot = 1/2 + 1%2;
-    float adv = 1000/2 + 1000%2;
+    float adv = 1100/2 + 1100%2;
     if(obstacle(ldata, angle[0]-10, angle[3]+5)){
         if(turnWay == Way::RIGHT){
             differentialrobot_proxy->setSpeedBase(0, -rot);
@@ -186,7 +174,9 @@ void SpecificWorker::bug (RoboCompLaser::TLaserData ldata){
         differentialrobot_proxy->setSpeedBase(0, rot);
         return;
     }
-        differentialrobot_proxy->setSpeedBase(adv, 0);
+    else {
+
+    }
 
     if(turnWay == Way::RIGHT && !obstacle(ldata, angle[0], angle[1])){
         differentialrobot_proxy->setSpeedBase(adv, rot);
@@ -196,6 +186,8 @@ void SpecificWorker::bug (RoboCompLaser::TLaserData ldata){
         differentialrobot_proxy->setSpeedBase(adv, -rot);
         return;
     }
+    differentialrobot_proxy->setSpeedBase(adv, 0);
+
 }
 
 bool SpecificWorker::obstacle(RoboCompLaser::TLaserData ldata, int start, int end){
@@ -204,22 +196,25 @@ bool SpecificWorker::obstacle(RoboCompLaser::TLaserData ldata, int start, int en
       return true;
   }
   return false;
+
+  //Sort the laser data, check if the closest one is under a threshold, return true if it is.
+  /*std::sort( ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b){ return a.dist < b.dist; });
+  return (ldata.front().dist < 300);*/
 }
 
-bool SpecificWorker::targetAtSight(RoboCompLaser::TLaserData ldata)
-{
-   QPolygonF polygon;
-   QVec r = innerModel->transform("world", "base");
-   polygon << QPointF(r.x(), r.z());
-   for (int i = angle[1]; i < angle[3]; i++ ){
-     QVec lr = innerModel->laserTo("world", "laser", ldata[i].dist, ldata[i].angle);
-     polygon << QPointF(lr.x(), lr.z());
-   }
-   polygon << QPointF(r.x(), r.z());
-   QPointF p(targ.getX(), targ.getZ()); 
- 
-   return  polygon.containsPoint( p , Qt::WindingFill );  
-    return false;
+bool SpecificWorker::inLine() {
+    RoboCompGenericBase::TBaseState bState;
+    differentialrobot_proxy->getBaseState(bState);
+        double dist = fabs((linear.A*bState.x + linear.B*bState.z + linear.C))/sqrt((linear.A*linear.A) + (linear.B*linear.B));
+        //double dist = ((a*bState.x) + (b*bState.z) + c);
+        //dist = fabs(dist);
+        qDebug()<<"LINE CROSS--------------------------------> " << dist;
+
+        if (dist<30){
+            qDebug()<<"Inside LINE CROSS--------------------------------> " << dist;
+            return true;
+        }
+        return false;
 }
 
 //Select pick

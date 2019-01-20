@@ -82,6 +82,7 @@ public:
 	//
 	void selectDirectionBug(RoboCompLaser::TLaserData ldata);
 	//
+    bool inLine();
 	
 public slots:
     void compute();
@@ -102,6 +103,8 @@ private:
     //
     line linear;
 	//
+    int lastPosition[2];
+
 	
 
 };
