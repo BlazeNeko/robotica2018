@@ -1,0 +1,14 @@
+/home/brio/robocomp/components/robotica2018/practica5/chocachoca/CMakeFiles/install/strip.dir
+/home/brio/robocomp/components/robotica2018/practica5/chocachoca/CMakeFiles/install.dir
+/home/brio/robocomp/components/robotica2018/practica5/chocachoca/CMakeFiles/install/local.dir
+/home/brio/robocomp/components/robotica2018/practica5/chocachoca/CMakeFiles/list_install_components.dir
+/home/brio/robocomp/components/robotica2018/practica5/chocachoca/CMakeFiles/edit_cache.dir
+/home/brio/robocomp/components/robotica2018/practica5/chocachoca/CMakeFiles/rebuild_cache.dir
+/home/brio/robocomp/components/robotica2018/practica5/chocachoca/src/CMakeFiles/install/strip.dir
+/home/brio/robocomp/components/robotica2018/practica5/chocachoca/src/CMakeFiles/edit_cache.dir
+/home/brio/robocomp/components/robotica2018/practica5/chocachoca/src/CMakeFiles/chocachoca.dir
+/home/brio/robocomp/components/robotica2018/practica5/chocachoca/src/CMakeFiles/list_install_components.dir
+/home/brio/robocomp/components/robotica2018/practica5/chocachoca/src/CMakeFiles/install/local.dir
+/home/brio/robocomp/components/robotica2018/practica5/chocachoca/src/CMakeFiles/rebuild_cache.dir
+/home/brio/robocomp/components/robotica2018/practica5/chocachoca/src/CMakeFiles/install.dir
+/home/brio/robocomp/components/robotica2018/practica5/chocachoca/src/CMakeFiles/chocachoca_autogen.dir
