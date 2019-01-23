@@ -110,17 +110,9 @@ class Grid
 				}
 	
 			// list of increments to access the neighboors of a given position
-            I = dim.TILE_SIZE;
-            //xincs = {I,I,I,0,-I,-I,-I,0};
-            //zincs = {I,0,-I,-I,-I,0,I,I};
-
-            int radio = 1; //radio de busqueda de los vecinos validos
-            for (int x = I * (-radio); x <= I * radio; x += I) {
-                for (int z = I * (-radio); z <= I * radio; z += I) {
-                    xincs.insert(xincs.end(), x);
-                    zincs.insert(zincs.end(), z);
-                }
-            }
+			I = dim.TILE_SIZE;
+			xincs = {I,I,I,0,-I,-I,-I,0};
+			zincs = {I,0,-I,-I,-I,0,I,I};	
 		
 			std::cout << "Grid::Initialize. Grid initialized to map size: " << fmap.size() << std::endl;	
 		}
@@ -135,11 +127,12 @@ class Grid
 		{
 				fmap.clear();
 		}
-
+		
 		void saveToFile(const std::string &fich)
 		{
 			std::ofstream myfile;
-			myfile.open (fich);
+			std::cout << "Saving data..." << std::endl;
+			myfile.open (fich, std::ofstream::binary);
 			for(auto &[k, v] : fmap)
 			{
 				myfile << k << v << std::endl;
@@ -163,55 +156,18 @@ class Grid
 		std::vector<int> zincs;	
 		
 		using Cell = std::pair<Key,T>;
-
-        bool correctNeigh(const Key &k) const{
-            int I = dim.TILE_SIZE;
-            std::vector<int> xaux;
-            std::vector<int> zaux;
-            int radio = 2;
-
-            for (int x = I * (-radio); x <= I * radio; x += I) {
-                for (int z = I * (-radio); z <= I * radio; z += I) {
-                    xaux.insert(xaux.end(), x);
-                    zaux.insert(zaux.end(), z);
-                }
-            }
-            for (auto itx = xaux.begin(), itz = zaux.begin(); itx != xaux.end(); ++itx, ++itz)
-            {
-                Key lk{k.x + *itx, k.z + *itz};
-                typename FMap::const_iterator it = fmap.find(lk);
-                if( it != fmap.end()){
-                    if(!fmap.find(lk)->second.free)
-                    {
-                        return false;
-                    }
-                } else {
-                    return false;
-                }
-            }
-            return true;
-        }
-
-
-
-        std::vector<Cell> neighbours(const Key &k) const
-        {
-            std::vector<Cell> neigh;
-            for (auto itx = this->xincs.begin(), itz = this->zincs.begin(); itx != this->xincs.end(); ++itx, ++itz)
-            {
-                Key lk{k.x + *itx, k.z + *itz};
-                typename FMap::const_iterator it = fmap.find(lk);
-                if( it != fmap.end()){
-                    if(fmap.find(lk)->second.free)
-                    {
-                        if(correctNeigh(k))
-                        neigh.push_back({lk,it->second});
-                    }
-
-                }
-            };
-            return neigh;
-        }
+		std::vector<Cell> neighbours(const Key &k) const
+		{
+			std::vector<Cell> neigh;
+			for (auto itx = this->xincs.begin(), itz = this->zincs.begin(); itx != this->xincs.end(); ++itx, ++itz)
+			{
+				Key lk{k.x + *itx, k.z + *itz}; 
+				typename FMap::const_iterator it = fmap.find(lk);
+				if( it != fmap.end() ) //and not an obstacle
+					neigh.push_back({lk,it->second});
+			};
+			return neigh;
+		}	
 		
 		auto pointToGrid(long int x, long int z) const -> decltype(Key())
 		{
@@ -245,7 +201,7 @@ class Grid
 				active_vertices.erase( active_vertices.begin() );
 				for (auto ed : neighbours(where)) 
 				{
-                    //qDebug() << "antes del if" << ed.first.x << ed.first.z << ed.second.id << fmap[where].id << min_distance[ed.second.id] << min_distance[fmap[where].id];
+					qDebug() << "antes del if" << ed.first.x << ed.first.z << ed.second.id << fmap[where].id << min_distance[ed.second.id] << min_distance[fmap[where].id];
 					if (min_distance[ed.second.id] > min_distance[fmap[where].id] + ed.second.cost) 
 					{
 						active_vertices.erase( { min_distance[ed.second.id], ed.first } );

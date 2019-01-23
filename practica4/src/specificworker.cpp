@@ -69,8 +69,13 @@ void SpecificWorker::compute()
 
     case State::IDLE:
         if ( targ.getStatus() ) {
-            //Calcula la linea de la ecuación
+            //P1 = punto origen del robot
+            //P2 = target.pick[index]
+//            linear.A= line2p.P1Z -line2p.P2Z;
+  //          linear.B= line2p.P2X -line2p.P1X;
             linear.A = bState.z -targ.getZ();
+            //A = -P2x - P1x
+            //B = P2z - P1z
             linear.B = targ.getX() - bState.x;
             linear.C= (bState.x * (linear.A*-1)) - (bState.z * linear.B);
 
@@ -114,20 +119,17 @@ void SpecificWorker::goTarget()
     }) ;
 	
 
-    //comprueba si está en angulo del objetivo y gira en caso de que no.
+
     if(std::abs(rotAngle) > .1) {
 	differentialrobot_proxy->setSpeedBase(0, rotAngle);	
     }
     else {
-        //Por el contrario si está en linea recta aumenta
     	differentialrobot_proxy->setSpeedBase(1000, 0);
-        //Si encuentra un obstaculo al frente entre los angulos 30-70 se dispone a rodearlo
+
 		if(obstacle(ldata, angle[1], angle[3])) {
 			differentialrobot_proxy->setSpeedBase(0, 0);
 			stateWork = State::BUG;
-            //Selecciona la dirección en la cual girar
             selectDirectionBug(ldata);
-            //guarda la posición actual para que no se repita ni se quede en bucle
             lastPosition[0] = bState.x;
             lastPosition[1] = bState.z;
             std::cout<<"BUG"<<std::endl;
@@ -151,14 +153,14 @@ void SpecificWorker::goTarget()
 void SpecificWorker::bug (RoboCompLaser::TLaserData ldata){
 	RoboCompGenericBase::TBaseState bState;
     differentialrobot_proxy->getBaseState(bState);
-    //Calcula si está en linea al objetivo y si está en la misma posición que la última vez
+
     bool inL = inLine();
     bool samePosition = (lastPosition[0]== (int)bState.x && lastPosition[1] == (int)bState.z);
-    //Si está en linea, en distinta posición que al entrar en el bug y sin obstaculo, se dirige al objetivo
+    qDebug()<<"Last X: " << lastPosition[0] <<" Last Z: " << lastPosition[1];
+    qDebug()<<"Actual X: " << (int)bState.x <<" Actual Z: " << (int)bState.z;
     if(inL && !obstacle(ldata,angle[1],angle[3]) && !samePosition)
     {
-        std::cout<<"In line with target "<<std::endl;
-        std::cout<<"GOTO"<<std::endl;
+         std::cout<<"In line with target "<<std::endl;
         stateWork = State::GOTO;
         return;
     }
@@ -172,6 +174,9 @@ void SpecificWorker::bug (RoboCompLaser::TLaserData ldata){
         differentialrobot_proxy->setSpeedBase(0, rot);
         return;
     }
+    else {
+
+    }
 
     if(turnWay == Way::RIGHT && !obstacle(ldata, angle[0], angle[1])){
         differentialrobot_proxy->setSpeedBase(adv, rot);
@@ -184,15 +189,19 @@ void SpecificWorker::bug (RoboCompLaser::TLaserData ldata){
     differentialrobot_proxy->setSpeedBase(adv, 0);
 
 }
-//Comprueba si hay obstaculo entre los angulos pasados
+
 bool SpecificWorker::obstacle(RoboCompLaser::TLaserData ldata, int start, int end){
   for(int i=start; i<= end; i++){
     if(ldata[i].dist < threshold+50)
       return true;
   }
   return false;
+
+  //Sort the laser data, check if the closest one is under a threshold, return true if it is.
+  /*std::sort( ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b){ return a.dist < b.dist; });
+  return (ldata.front().dist < 300);*/
 }
-//Comprueba si estás en un rango cercano a la linea
+
 bool SpecificWorker::inLine() {
     RoboCompGenericBase::TBaseState bState;
     differentialrobot_proxy->getBaseState(bState);
@@ -213,7 +222,6 @@ void SpecificWorker::setPick(const Pick &myPick) {
     targ.setPick(myPick);
     std::cout<<"x:"<<myPick.x<<" z:"<<myPick.z <<std::endl;
 }
-//Selecciona la dirección en la que girar, viendo qué tiene más cerca si a la izquierda o derecha
 void SpecificWorker::selectDirectionBug(RoboCompLaser::TLaserData ldata){
   for(int i = 0; i <= angle[2]-angle[1]; i++){
     if (ldata[angle[1]+i].dist < threshold){
